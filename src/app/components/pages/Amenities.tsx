@@ -144,10 +144,10 @@ export function Amenities() {
           </nav>
           <p className="text-[11px] tracking-[0.3em] uppercase text-white/90 mb-2" style={{ fontFamily: "Inter, sans-serif" }}>Amenities</p>
           <h1 className="text-5xl sm:text-6xl text-white leading-none mb-3" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
-            Premium amenities,
+            Premium Amenities,
           </h1>
           <p className="text-3xl text-white/90 italic" style={{ fontFamily: "Cormorant Garamond, serif" }}>
-            exceptional everyday life
+            Exceptional Everyday Life
           </p>
         </div>
       </section>
@@ -166,19 +166,20 @@ export function Amenities() {
       </section>
 
       {/* Photo Grid */}
-      <section className="px-6 sm:px-12 lg:px-20 pb-10 max-w-7xl mx-auto">
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
-          {showcaseImages.map((img, i) => (
-            <div key={i} className="aspect-square overflow-hidden">
-              <ImageWithFallback
-                src={img.src}
-                alt={img.alt}
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-              />
-            </div>
-          ))}
-        </div>
-      </section>
+      {/* Photo Grid */}
+<section className="px-6 sm:px-12 lg:px-20 pb-10 max-w-7xl mx-auto">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+    {showcaseImages.map((img, i) => (
+      <div key={i} className="aspect-square overflow-hidden">
+        <ImageWithFallback
+          src={img.src}
+          alt={img.alt}
+          className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+        />
+      </div>
+    ))}
+  </div>
+</section>
 
       {/* Amenity Groups Grid */}
       <section className="py-10 px-6 sm:px-12 lg:px-20 max-w-7xl mx-auto">
@@ -208,23 +209,45 @@ export function Amenities() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 px-6 bg-black text-white text-center">
-        <div className="max-w-2xl mx-auto">
-          <p className="text-[13px] tracking-[0.3em] uppercase text-gray-300 mb-4" style={{ fontFamily: "Inter, sans-serif" }}>Experience all the amenities in person.</p>
-          <h2 className="text-4xl mb-4" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
-            Schedule your private showing and discover<br />
-            <em>why Ranch Retreat offers a lifestyle that simply cannot be replicated.</em>
-          </h2>
-          <div className="flex flex-wrap justify-center gap-4 mt-8">
-            <Link to="/schedule-showing" className="px-8 py-3 bg-white text-black text-[13px] tracking-[0.15em] uppercase hover:bg-gray-100 transition-colors" style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}>
-              Schedule a Showing
-            </Link>
-            <Link to="/outdoor-living" className="px-8 py-3 border border-gray-700 text-white text-[13px] tracking-[0.15em] uppercase hover:border-white transition-colors" style={{ fontFamily: "Inter, sans-serif" }}>
-              Explore Outdoor Living
-            </Link>
-          </div>
-        </div>
-      </section>
+      <section className="py-14 sm:py-16 md:py-20 px-4 sm:px-6 bg-black text-white text-center">
+  <div className="max-w-2xl mx-auto">
+    <p
+      className="text-[11px] sm:text-[13px] tracking-[0.2em] sm:tracking-[0.3em] uppercase text-gray-300 mb-3 sm:mb-4"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      Experience all the amenities in person.
+    </p>
+
+    <h2
+      className="text-2xl sm:text-3xl md:text-4xl leading-snug sm:leading-normal mb-4 px-1"
+      style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}
+    >
+      Schedule your private showing and discover
+      <br className="hidden sm:block" />
+      <em>
+        why Ranch Retreat offers a lifestyle that simply cannot be replicated.
+      </em>
+    </h2>
+
+    <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 mt-6 sm:mt-8">
+      <Link
+        to="/schedule-showing"
+        className="w-full sm:w-auto px-6 sm:px-8 py-3 bg-white text-black text-[12px] sm:text-[13px] tracking-[0.12em] sm:tracking-[0.15em] uppercase hover:bg-gray-100 transition-colors"
+        style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
+      >
+        Schedule a Showing
+      </Link>
+
+      <Link
+        to="/outdoor-living"
+        className="w-full sm:w-auto px-6 sm:px-8 py-3 border border-gray-700 text-white text-[12px] sm:text-[13px] tracking-[0.12em] sm:tracking-[0.15em] uppercase hover:border-white transition-colors"
+        style={{ fontFamily: "Inter, sans-serif" }}
+      >
+        Explore Outdoor Living
+      </Link>
+    </div>
+  </div>
+</section>
     </div>
   );
 }

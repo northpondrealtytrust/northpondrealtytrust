@@ -85,13 +85,13 @@ export function ModernLiving() {
             className="text-5xl sm:text-6xl lg:text-7xl text-white leading-none mb-3"
             style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}
           >
-            Contemporary comfort,
+            Contemporary Comfort,
           </h1>
           <p
             className="text-3xl sm:text-4xl text-white/90 italic"
             style={{ fontFamily: "Cormorant Garamond, serif", fontWeight: 400 }}
           >
-            beautifully crafted
+            Beautifully Crafted
           </p>
         </div>
       </section>
@@ -177,32 +177,50 @@ export function ModernLiving() {
 
       {/* CTA */}
       <section className="py-20 px-6 text-center">
-        <div className="max-w-xl mx-auto">
-          <p className="text-[12px] tracking-[0.3em] uppercase text-gray-600 mb-4" style={{ fontFamily: "Inter, sans-serif" }}>Ready to experience it in person?</p>
-          <h2 className="text-3xl text-black mb-3" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
-            Modern living starts with<br /><em>a single showing.</em>
-          </h2>
-          <p className="text-3sm text-gray-700 mb-8" style={{ fontFamily: "Inter, sans-serif" }}>
-            Maine Retreat — Norway, Maine · Long-Term Rental · Oxford Hills · Immediately Available
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link
-              to="/schedule-showing"
-              className="px-8 py-3 bg-black text-white text-[12px] tracking-[0.15em] uppercase hover:bg-gray-900 transition-colors"
-              style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}
-            >
-              Schedule a Showing
-            </Link>
-            <Link
-              to="/bedrooms"
-              className="px-8 py-3 border border-black text-black text-[12px] tracking-[0.15em] uppercase hover:bg-black hover:text-white transition-colors"
-              style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}
-            >
-              View Bedrooms
-            </Link>
-          </div>
-        </div>
-      </section>
+  <div className="max-w-xl mx-auto">
+    <p
+      className="text-[11px] sm:text-[12px] tracking-[0.2em] sm:tracking-[0.3em] uppercase text-gray-600 mb-4"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      Ready to experience it in person?
+    </p>
+
+    <h2
+      className="text-2xl sm:text-3xl text-black leading-snug mb-3"
+      style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}
+    >
+      Modern living starts with
+      <br />
+      <em>a single showing.</em>
+    </h2>
+
+    <p
+      className="text-sm sm:text-base text-gray-700 mb-8 leading-relaxed"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      Maine Retreat — Norway, Maine · Long-Term Rental · Oxford Hills ·
+      Immediately Available
+    </p>
+
+    <div className="flex flex-col sm:flex-row justify-center gap-4">
+      <Link
+        to="/schedule-showing"
+        className="w-full sm:w-auto px-6 sm:px-8 py-3 bg-black text-white text-[12px] tracking-[0.12em] sm:tracking-[0.15em] uppercase hover:bg-gray-900 transition-colors"
+        style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}
+      >
+        Schedule Showing
+      </Link>
+
+      <Link
+        to="/bedrooms"
+        className="w-full sm:w-auto px-6 sm:px-8 py-3 border border-black text-black text-[12px] tracking-[0.12em] sm:tracking-[0.15em] uppercase hover:bg-black hover:text-white transition-colors"
+        style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}
+      >
+        View Bedrooms
+      </Link>
+    </div>
+  </div>
+</section>
     </div>
   );
 }

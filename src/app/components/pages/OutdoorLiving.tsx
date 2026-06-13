@@ -104,7 +104,7 @@ export function OutdoorLiving() {
             Outdoor Living
           </p>
           <p className="text-2xl text-white/90 italic" style={{ fontFamily: "Cormorant Garamond, serif" }}> {/* ✅ font size up */}
-            Two private acres,<br />yours to enjoy
+            Two Private Acres,<br />Yours To Enjoy
           </p>
         </div>
       </section>
@@ -219,7 +219,7 @@ export function OutdoorLiving() {
       {/* Gallery Slider */}
       <section className="py-20 px-6 sm:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
-          <div className="flex items-center justify-between mb-8">
+          <div className="flex items-center justify-between mb-3">
             <div>
               <p className="text-[13px] tracking-[0.3em] uppercase text-gray-600 mb-1" style={{ fontFamily: "Inter, sans-serif" }}>Outdoor Gallery</p>
               <h2 className="text-2xl text-black" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>All Seasons</h2>
@@ -250,21 +250,41 @@ export function OutdoorLiving() {
 
       {/* CTA */}
       <section className="py-16 px-6 bg-gray-50 text-center">
-        <div className="max-w-xl mx-auto">
-          <p className="text-gray-700 mb-2 text-xl" style={{ fontFamily: "Inter, sans-serif" }}>Experience it yourself</p>
-          <p className="text-gray-600 text-2sm mb-6" style={{ fontFamily: "Inter, sans-serif" }}>
-            Schedule a private showing and see why this outdoor retreat is truly one-of-a-kind.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/schedule-showing" className="px-8 py-3 bg-black text-white text-[13px] tracking-[0.15em] uppercase hover:bg-gray-900 transition-colors" style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}>
-              Book a Showing
-            </Link>
-            <Link to="/location" className="px-8 py-3 border border-black text-black text-[13px] tracking-[0.15em] uppercase hover:bg-black hover:text-white transition-colors" style={{ fontFamily: "Inter, sans-serif" }}>
-              Explore Location
-            </Link>
-          </div>
-        </div>
-      </section>
+  <div className="max-w-2xl mx-auto">
+    <p
+      className="text-gray-700 mb-2 text-xl"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      Experience it yourself
+    </p>
+
+    <p
+      className="text-gray-600 text-base leading-relaxed mb-6"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      Schedule a private showing and see why this outdoor retreat is truly
+      one-of-a-kind.
+    </p>
+
+    <div className="flex flex-col sm:flex-row justify-center gap-4">
+      <Link
+        to="/schedule-showing"
+        className="w-full sm:w-auto px-8 py-3 bg-black text-white text-[13px] tracking-[0.15em] uppercase hover:bg-gray-900 transition-colors"
+        style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}
+      >
+        Book a Showing
+      </Link>
+
+      <Link
+        to="/location"
+        className="w-full sm:w-auto px-8 py-3 border border-black text-black text-[13px] tracking-[0.15em] uppercase hover:bg-black hover:text-white transition-colors"
+        style={{ fontFamily: "Inter, sans-serif" }}
+      >
+        Explore Location
+      </Link>
+    </div>
+  </div>
+</section>
     </div>
   );
 }

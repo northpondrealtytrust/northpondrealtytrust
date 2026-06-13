@@ -175,7 +175,7 @@ const [form, setForm] = useState<FormData>({
               <div className="space-y-3">
                 <a href="tel:12022583575" className="flex items-center gap-3 text-3sm text-gray-700 hover:text-black transition-colors" style={{ fontFamily: "Inter, sans-serif" }}>
                   <Phone size={14} className="text-gray-400" />
-                  +1 12022583575
+                  +1 (202) 258-3575
                 </a>
                 <a href="mailto:Info@NorthPondRealtyTrust.com" className="flex items-center gap-3 text-3sm text-gray-700 hover:text-black transition-colors" style={{ fontFamily: "Inter, sans-serif" }}>
                   <Mail size={14} className="text-gray-400" />
@@ -385,7 +385,7 @@ const [form, setForm] = useState<FormData>({
         <div className="max-w-7xl mx-auto grid sm:grid-cols-3 gap-8 text-center">
           {[
             { icon: "🏡", title: "Move-In Ready", sub: "No projects. No waiting. Just home." },
-            { icon: "🐕", title: "Dog Friendly", sub: "Perimeter fence planned. 2 acres to roam." },
+            { icon: "🐕", title: "Pet Friendly", sub: "Perimeter fence planned. 2 acres to roam." },
             { icon: "✉️", title: "Quick Response", sub: "Confirmation within 24 hours." },
           ].map((item) => (
             <div key={item.title}>

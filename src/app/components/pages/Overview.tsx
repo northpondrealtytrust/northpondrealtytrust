@@ -175,7 +175,7 @@ export function Overview() {
         </div>
 
         {/* Carousel Controls */}
-        <button
+       {/* <button
           onClick={() => emblaApi?.scrollPrev()}
           className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-colors"
         >
@@ -187,6 +187,7 @@ export function Overview() {
         >
           <ChevronRight size={20} />
         </button>
+         */}
 
         {/* Scroll indicator */}
         <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/50">

@@ -105,10 +105,10 @@ export function Features() {
           </nav>
           <p className="text-[13px] tracking-[0.3em] uppercase text-white/80 mb-2" style={{ fontFamily: "Inter, sans-serif" }}>Home Features</p>
           <h1 className="text-5xl sm:text-6xl text-white leading-none mb-3" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
-            Every detail
+            Every Detail
           </h1>
           <p className="text-3xl text-white/80 italic" style={{ fontFamily: "Cormorant Garamond, serif" }}>
-            thoughtfully refreshed
+            Thoughtfully Refreshed
           </p>
         </div>
       </section>
@@ -214,29 +214,41 @@ export function Features() {
 
       {/* CTA */}
       <section className="py-16 px-6 text-center bg-gray-50">
-        <div className="max-w-xl mx-auto">
-          <p className="text-[14px] tracking-[0.3em] uppercase text-gray-800 mb-3" style={{ fontFamily: "Inter, sans-serif" }}>Love what you see?</p>
-          <p className="text-[18px] text-gray-700 mb-6" style={{ fontFamily: "Inter, sans-serif" }}>
-            This turnkey ranch is move-in ready and immediately available for long-term rental. Schedule your private showing today.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link
-              to="/schedule-showing"
-              className="px-8 py-3 bg-black text-white text-[12px] tracking-[0.15em] uppercase hover:bg-gray-900 transition-colors"
-              style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}
-            >
-              Schedule a Showing
-            </Link>
-            <Link
-              to="/outdoor-living"
-              className="px-8 py-3 border border-black text-black text-[12px] tracking-[0.15em] uppercase hover:bg-black hover:text-white transition-colors"
-              style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}
-            >
-              View Outdoor Living
-            </Link>
-          </div>
-        </div>
-      </section>
+  <div className="max-w-xl mx-auto">
+    <p
+      className="text-[14px] tracking-[0.3em] uppercase text-gray-800 mb-3"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      Love what you see?
+    </p>
+
+    <p
+      className="text-[18px] leading-relaxed text-gray-700 mb-6"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      This turnkey ranch is move-in ready and immediately available for
+      long-term rental. Schedule your private showing today.
+    </p>
+
+    <div className="flex flex-col sm:flex-row justify-center gap-4">
+      <Link
+        to="/schedule-showing"
+        className="w-full sm:w-auto px-8 py-3 bg-black text-white text-[12px] tracking-[0.15em] uppercase hover:bg-gray-900 transition-colors"
+        style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}
+      >
+        Schedule a Showing
+      </Link>
+
+      <Link
+        to="/outdoor-living"
+        className="w-full sm:w-auto px-8 py-3 border border-black text-black text-[12px] tracking-[0.15em] uppercase hover:bg-black hover:text-white transition-colors"
+        style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}
+      >
+        View Outdoor Living
+      </Link>
+    </div>
+  </div>
+</section>
     </div>
   );
 }

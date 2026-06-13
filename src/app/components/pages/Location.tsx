@@ -106,7 +106,7 @@ export function Location() {
             Location ·Norway, Maine
           </h1>
           <p className="text-3xl text-white/90 italic" style={{ fontFamily: "Cormorant Garamond, serif" }}>
-            Close to everything, private by nature
+            Close To Everything, Private By Nature
           </p>
         </div>
       </section>
@@ -261,25 +261,50 @@ export function Location() {
 
       {/* CTA */}
       <section className="py-20 px-6 text-center">
-        <div className="max-w-xl mx-auto">
-          <p className="text-[13px] tracking-[0.3em] uppercase text-gray-600 mb-4" style={{ fontFamily: "Inter, sans-serif" }}>Visit this remarkable retreat</p>
-          <h2 className="text-3xl text-black mb-3" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
-            Ideally located for those seeking<br />
-            <em>peace without sacrificing convenience.</em>
-          </h2>
-          <p className="text-2sm text-gray-600 mb-8" style={{ fontFamily: "Inter, sans-serif" }}>
-            Maine Retreat — Norway, Maine · Long-Term Rental · Oxford Hills · Immediately Available
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/schedule-showing" className="px-8 py-3 bg-black text-white text-[14px] tracking-[0.15em] uppercase hover:bg-gray-900 transition-colors" style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}>
-              Schedule a Showing
-            </Link>
-            <Link to="/details" className="px-8 py-3 border border-black text-black text-[14px] tracking-[0.15em] uppercase hover:bg-black hover:text-white transition-colors" style={{ fontFamily: "Inter, sans-serif" }}>
-              Full Specifications
-            </Link>
-          </div>
-        </div>
-      </section>
+  <div className="max-w-xl mx-auto">
+    <p
+      className="text-[13px] tracking-[0.3em] uppercase text-gray-600 mb-4"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      Visit this remarkable retreat
+    </p>
+
+    <h2
+      className="text-3xl leading-normal text-black mb-3"
+      style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}
+    >
+      Ideally located for those seeking
+      <br />
+      <em>peace without sacrificing convenience.</em>
+    </h2>
+
+    <p
+      className="text-base text-gray-600 mb-8"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      Maine Retreat — Norway, Maine · Long-Term Rental · Oxford Hills ·
+      Immediately Available
+    </p>
+
+    <div className="flex flex-col sm:flex-row justify-center gap-4">
+      <Link
+        to="/schedule-showing"
+        className="w-full sm:w-auto px-8 py-3 bg-black text-white text-[14px] tracking-[0.15em] uppercase hover:bg-gray-900 transition-colors"
+        style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}
+      >
+        Schedule a Showing
+      </Link>
+
+      <Link
+        to="/details"
+        className="w-full sm:w-auto px-8 py-3 border border-black text-black text-[14px] tracking-[0.15em] uppercase hover:bg-black hover:text-white transition-colors"
+        style={{ fontFamily: "Inter, sans-serif" }}
+      >
+        Full Specifications
+      </Link>
+    </div>
+  </div>
+</section>
     </div>
   );
 }

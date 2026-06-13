@@ -224,10 +224,10 @@ export function Bedrooms() {
           </nav>
           <p className="text-[11px] tracking-[0.3em] uppercase text-white/90 mb-2" style={{ fontFamily: "Inter, sans-serif" }}>Bedrooms</p>
           <h1 className="text-5xl sm:text-6xl text-white leading-none mb-3" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
-            Rest, privacy,
+            Rest & Privacy
           </h1>
           <p className="text-3xl text-white/80 italic" style={{ fontFamily: "Cormorant Garamond, serif" }}>
-            beautifully designed
+            Beautifully Designed
           </p>
         </div>
       </section>
@@ -263,7 +263,7 @@ export function Bedrooms() {
       className="inline-block px-5 py-2.5 bg-white text-black text-[13px] tracking-[0.15em] uppercase hover:bg-gray-100 transition-colors"
       style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
     >
-      Schedule a Showing
+      Schedule Showing
     </Link>
   </div>
 </section>
@@ -290,25 +290,49 @@ export function Bedrooms() {
 
       {/* CTA */}
       <section className="py-20 px-6 text-center bg-black text-white">
-        <div className="max-w-2xl mx-auto">
-          <p className="text-[13px] tracking-[0.3em] uppercase text-gray-300 mb-4" style={{ fontFamily: "Inter, sans-serif" }}>Three rooms. One exceptional home.</p>
-          <h2 className="text-4xl mb-4" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
-            See the primary suite, guest rooms,<br />
-            <em>and the full home in person.</em>
-          </h2>
-          <p className="text-gray-200 mb-8" style={{ fontFamily: "Inter, sans-serif" }}>
-            Schedule your private showing today.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/schedule-showing" className="px-8 py-3 bg-white text-black text-[14px] tracking-[0.15em] uppercase hover:bg-gray-100 transition-colors" style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}>
-              Schedule a Showing
-            </Link>
-            <Link to="/amenities" className="px-8 py-3 border border-gray-700 text-white text-[14px] tracking-[0.15em] uppercase hover:border-white transition-colors" style={{ fontFamily: "Inter, sans-serif" }}>
-              View Amenities
-            </Link>
-          </div>
-        </div>
-      </section>
+  <div className="max-w-2xl mx-auto">
+    <p
+      className="text-[13px] tracking-[0.3em] uppercase text-gray-300 mb-4"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      Three rooms. One exceptional home.
+    </p>
+
+    <h2
+      className="text-4xl leading-normal mb-4"
+      style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}
+    >
+      See the primary suite, guest rooms,
+      <br />
+      <em>and the full home in person.</em>
+    </h2>
+
+    <p
+      className="text-gray-200 mb-8"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      Schedule your private showing today.
+    </p>
+
+    <div className="flex flex-col sm:flex-row justify-center gap-4">
+      <Link
+        to="/schedule-showing"
+        className="w-full sm:w-auto px-8 py-3 bg-white text-black text-[14px] tracking-[0.15em] uppercase hover:bg-gray-100 transition-colors"
+        style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
+      >
+        Schedule a Showing
+      </Link>
+
+      <Link
+        to="/amenities"
+        className="w-full sm:w-auto px-8 py-3 border border-gray-700 text-white text-[14px] tracking-[0.15em] uppercase hover:border-white transition-colors"
+        style={{ fontFamily: "Inter, sans-serif" }}
+      >
+        View Amenities
+      </Link>
+    </div>
+  </div>
+</section>
     </div>
   );
 }

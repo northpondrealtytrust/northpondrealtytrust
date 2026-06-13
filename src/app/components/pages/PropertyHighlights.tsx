@@ -119,10 +119,10 @@ export function PropertyHighlights() {
           </nav>
           <p className="text-[11px] tracking-[0.3em] uppercase text-white/90 mb-2" style={{ fontFamily: "Inter, sans-serif" }}>Property Highlights</p>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl text-white leading-none mb-3" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
-            An exceptional property,
+            An Exceptional Property,
           </h1>
           <p className="text-3xl sm:text-5xl text-white italic" style={{ fontFamily: "Cormorant Garamond, serif" }}>
-            every detail considered
+            Every Detail Considered
           </p>
         </div>
       </section>
@@ -241,34 +241,50 @@ export function PropertyHighlights() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 px-6 bg-black text-white text-center">
-        <div className="max-w-2xl mx-auto">
-          <p className="text-[13px] tracking-[0.3em] uppercase text-gray-300 mb-4" style={{ fontFamily: "Inter, sans-serif" }}>A rare Maine rental opportunity</p>
-          <h2 className="text-4xl mb-4" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
-            Masterfully renovated, move-in ready,<br />
-            <em>surrounded by nature.</em>
-          </h2>
-          <p className="text-gray-450 mb-8" style={{ fontFamily: "Inter, sans-serif" }}>
-            Schedule your private showing today.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link
-              to="/schedule-showing"
-              className="px-8 py-3 bg-white text-black text-[14px] tracking-[0.15em] uppercase hover:bg-gray-100 transition-colors"
-              style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
-            >
-              Schedule Showing
-            </Link>
-            <Link
-              to="/premium-features"
-              className="px-8 py-3 border border-gray-700 text-white text-[14px] tracking-[0.15em] uppercase hover:border-white transition-colors"
-              style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}
-            >
-              Premium Features
-            </Link>
-          </div>
-        </div>
-      </section>
+      <section className="py-16 sm:py-20 px-4 sm:px-6 bg-black text-white text-center">
+  <div className="max-w-2xl mx-auto">
+    <p
+      className="text-[11px] sm:text-[13px] tracking-[0.2em] sm:tracking-[0.3em] uppercase text-gray-300 mb-3 sm:mb-4"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      A rare Maine rental opportunity
+    </p>
+
+    <h2
+      className="text-2xl sm:text-3xl md:text-4xl leading-snug sm:leading-normal mb-4"
+      style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}
+    >
+      Masterfully renovated, move-in ready,
+      <br className="hidden sm:block" />
+      <em>surrounded by nature.</em>
+    </h2>
+
+    <p
+      className="text-gray-400 text-sm sm:text-base mb-6 sm:mb-8"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      Schedule your private showing today.
+    </p>
+
+    <div className="flex flex-col sm:flex-row justify-center gap-4">
+      <Link
+        to="/schedule-showing"
+        className="w-full sm:w-auto px-6 sm:px-8 py-3 bg-white text-black text-[12px] sm:text-[14px] tracking-[0.12em] sm:tracking-[0.15em] uppercase hover:bg-gray-100 transition-colors"
+        style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
+      >
+        Schedule Showing
+      </Link>
+
+      <Link
+        to="/premium-features"
+        className="w-full sm:w-auto px-6 sm:px-8 py-3 border border-gray-700 text-white text-[12px] sm:text-[14px] tracking-[0.12em] sm:tracking-[0.15em] uppercase hover:border-white transition-colors"
+        style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}
+      >
+        Premium Features
+      </Link>
+    </div>
+  </div>
+</section>
     </div>
   );
 }
