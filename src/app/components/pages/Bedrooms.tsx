@@ -320,7 +320,7 @@ export function Bedrooms() {
         className="w-full sm:w-auto px-8 py-3 bg-white text-black text-[14px] tracking-[0.15em] uppercase hover:bg-gray-100 transition-colors"
         style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
       >
-        Schedule a Showing
+        Schedule Showing
       </Link>
 
       <Link

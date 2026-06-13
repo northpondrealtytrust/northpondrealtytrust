@@ -115,7 +115,7 @@ const [form, setForm] = useState<FormData>({
       <section className="relative h-[90svh] min-h-[450px]">
         <ImageWithFallback
           src={img1}
-          alt="Schedule a Showing — Ranch Retreat"
+          alt="Schedule Showing — Ranch Retreat"
           className="w-full h-full object-cover"
         />
         

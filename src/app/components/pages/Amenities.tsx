@@ -235,7 +235,7 @@ export function Amenities() {
         className="w-full sm:w-auto px-6 sm:px-8 py-3 bg-white text-black text-[12px] sm:text-[13px] tracking-[0.12em] sm:tracking-[0.15em] uppercase hover:bg-gray-100 transition-colors"
         style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
       >
-        Schedule a Showing
+        Schedule Showing
       </Link>
 
       <Link

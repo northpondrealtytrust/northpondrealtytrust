@@ -236,7 +236,7 @@ export function Features() {
         className="w-full sm:w-auto px-8 py-3 bg-black text-white text-[12px] tracking-[0.15em] uppercase hover:bg-gray-900 transition-colors"
         style={{ fontFamily: "Inter, sans-serif", fontWeight: 500 }}
       >
-        Schedule a Showing
+        Schedule Showing
       </Link>
 
       <Link
