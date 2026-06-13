@@ -193,25 +193,53 @@ className="px-6 py-3 text-[14px] text-gray-700 w-2/5"
         </div>
       </section>
 
-  
       {/* CTA */}
-<div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8">
-  <Link
-    to="/schedule-showing"
-    className="w-full sm:w-auto px-10 py-4 bg-black text-white text-[14px] tracking-[0.2em] uppercase hover:bg-gray-900 transition-colors"
-    style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
-  >
-    Schedule Your Private Showing
-  </Link>
+      {/* CTA */}
+<section className="py-20 px-6 text-center">
+  <div className="max-w-2xl mx-auto">
+    <p
+      className="text-[13px] tracking-[0.3em] uppercase text-gray-600 mb-4"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      Don't miss this renovated ranch gem
+    </p>
 
-  <Link
-    to="/"
-    className="w-full sm:w-auto whitespace-nowrap px-8 py-4 border border-black text-black text-[14px] tracking-[0.2em] uppercase hover:bg-black hover:text-white transition-colors"
-    style={{ fontFamily: "Inter, sans-serif" }}
-  >
-    Back to Overview
-  </Link>
-</div>
+    <h2
+      className="text-4xl leading-normal text-black mb-4"
+      style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}
+    >
+      A rare opportunity —
+      <br />
+      <em>move-in ready, immediately available.</em>
+    </h2>
+
+    <p
+      className="text-base text-gray-600 mb-8 leading-relaxed"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      Landlord is amenable to working with you to make this house your home.
+      Schedule your private showing today.
+    </p>
+
+    <div className="flex flex-col sm:flex-row justify-center gap-4">
+      <Link
+        to="/schedule-showing"
+        className="w-full sm:w-auto px-10 py-4 bg-black text-white text-[14px] tracking-[0.2em] uppercase hover:bg-gray-900 transition-colors"
+        style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
+      >
+        Schedule Your Private Showing
+      </Link>
+
+      <Link
+        to="/"
+        className="w-full sm:w-auto px-8 py-4 border border-black text-black text-[14px] tracking-[0.2em] uppercase hover:bg-black hover:text-white transition-colors"
+        style={{ fontFamily: "Inter, sans-serif" }}
+      >
+        Back to Overview
+      </Link>
+    </div>
+  </div>
+</section>
     </div>
   );
 }
