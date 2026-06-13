@@ -12,7 +12,7 @@ import hero2 from "../../../imports/hero/hero2.png";
 import lvkt from "../../../imports/hero/lvkt.jpg";
 import H51 from "../../../imports/hero/h51.png";
 import hg2 from "../../../imports/hero/hg2.png";
-import H52 from "../../../imports/hero/h52.png";
+import H52 from "../../../imports/hero/H52.png";
 import imgHg20 from "../../../imports/hg20.jpg";
 // ── PROPERTY HIGHLIGHTS STRIP IMAGE IMPORTS ───────────────────────────────────────
 import io from "../../../imports/hero/io.jpg";
