@@ -5,6 +5,7 @@ import { ChevronLeft, ChevronRight, ArrowDown } from "lucide-react";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
 // ── HERO IMAGE IMPORTS ───────────────────────────────────────
 import HeroImg from "../../../imports/HM_HE1.jpg";
+import HM_HEImg from "../../../imports/HM_HE2.jpg";
 import hero3 from "../../../imports/hero/hero3.jpg";
 //import h52 from "../../../imports/hero/h52.png";
 import hero2 from "../../../imports/hero/hero2.png";
@@ -29,7 +30,7 @@ import EndImg from "../../../imports/HomePageEnd.jpg";
 
 
 const heroSlides = [
-  { src: hero3, alt: "Gourmet kitchen", label: "Brand New Kitchen" },
+  { src: HM_HEImg, alt: "Gourmet kitchen", label: "Brand New Kitchen" },
   { src: HeroImg, alt: "Private forest — Maine Retreat", label: "Exceptional Country Living" },
   //{ src: hero2, alt: "Ranch home exterior", label: "Move-In Ready" },
 ];
@@ -435,17 +436,17 @@ Today we offer carefully selected:
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
+               {
+                img: hero3,
+                label: "VIEW AROUND HOME",
+                desc: "Indoor-Outdoor Living · Full Perimeter",
+                path: "/outdoor-living",
+              },
               {
                 img: ps,
                 label: "Primary Suite",
                 desc: "King · Walk-in Closet · Ensuite Bath",
                 path: "/bedrooms",
-              },
-              {
-                img: pf1,
-                label: "Wrap-Around Porch",
-                desc: "Indoor-Outdoor Living · Full Perimeter",
-                path: "/outdoor-living",
               },
               {
                 img: io,
