@@ -57,7 +57,7 @@ export function gallery() {
                 <nav className="flex items-center gap-2 text-white/90 text-[11px] tracking-wider uppercase mb-4" style={{ fontFamily: "Inter, sans-serif" }}>
                   <Link to="/" className="hover:text-white transition-colors">Home</Link>
                   <span>/</span>
-                  <span className="text-white">Gallery</span>
+                  <span className="text-white">Gallery.</span>
                 </nav>
                 <p className="text-[11px] tracking-[0.3em] uppercase text-white mb-2" style={{ fontFamily: "Inter, sans-serif" }}>Gallery</p>
                 <h1
