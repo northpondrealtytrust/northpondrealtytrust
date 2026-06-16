@@ -9,6 +9,7 @@ import { PremiumFeatures } from "./components/pages/PremiumFeatures";
 import { Amenities } from "./components/pages/Amenities";
 import { OutdoorLiving } from "./components/pages/OutdoorLiving";
 import { Location } from "./components/pages/Location";
+import { gallery } from "./components/pages/Gallery";
 import { Details } from "./components/pages/Details";
 import { ScheduleShowing } from "./components/pages/ScheduleShowing";
 
@@ -27,6 +28,7 @@ export const router = createBrowserRouter([
       { path: "amenities", Component: Amenities },
       { path: "outdoor-living", Component: OutdoorLiving },
       { path: "location", Component: Location },
+      { path: "gallery", Component: gallery },
       { path: "details", Component: Details },
       { path: "schedule-showing", Component: ScheduleShowing },
     ],

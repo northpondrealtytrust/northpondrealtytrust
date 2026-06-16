@@ -20,7 +20,6 @@ import g7 from "../../../imports/property/g7.jpg";
 import g8 from "../../../imports/property/g8.png";
 import g9 from "../../../imports/property/g9.png";
 import g10 from "../../../imports/property/g10.jpg";
-import g11 from "../../../imports/property/g11.jpg";
 import WaterfrontImg from "../../../imports/property/Waterfront.jpeg";
 
 
@@ -28,10 +27,11 @@ import WaterfrontImg from "../../../imports/property/Waterfront.jpeg";
 const stats = [
   { value: "3", label: "Bedrooms", sub: "King + 2 Queen" },
   { value: "2", label: "Full Baths", sub: "Primary & Guest" },
-  { value: "2", label: "Car Garage", sub: "Detached" },
+  { value: "7", label: "rooms", sub: "& full-basement" },
   { value: "2", label: "Private Acres", sub: "Wooded lot" },
-  { value: "300ft", label: "to Road", sub: "Crockett Ridge" },
-  { value: "2min", label: "to Lake", sub: "North Pond" },
+  { value: "1680ft", label: "to Road", sub: "Crockett Ridge" },
+  { value: "2", label: "Car Garage", sub: "Detached" },
+  { value: "10", label: "min", sub: "Public Boat Ramps" },
 ];
 
 const cards = [
@@ -46,13 +46,13 @@ const cards = [
     img: imgForest,
   },
   {
-    title: "Waterfront Access Nearby",
+    title: "Oxford Hills Lakes Are Nearby",
     body: "Norway Lake and North Pond are just 2 miles from the driveway. Public boat ramps, swimming, fishing, kayaking, and paddleboarding are all within easy reach.",
     img: WaterfrontImg,
   },
   {
     title: "Premier Location",
-    body: "Set in the Oxford Hills of Norway, Maine — a region celebrated for its natural beauty, four-season recreation, and authentic New England character — with Portland just 1 hour away.",
+    body: "Set in the Oxford Hills of Norway, Maine — a region celebrated for its natural beauty, four-season recreation, and authentic New England character — with Portland and Ski Areas and Golf Resorts just 45 minutes away .",
     img: imgH3,
   },
 ];
@@ -61,7 +61,7 @@ const checklist = [
   "Masterfully renovated — completely turnkey",
   "3 bedrooms / 2 full bathrooms",
   "Private 2-acre wooded parcel",
-  "Single-story ranch — no stairs",
+  "Single-story ranch — basement opens to rear yard",
   "Brand-new kitchen with quartz countertops",
   "Premium stainless-steel appliances",
   "King-size primary suite with walk-in closet",
@@ -69,9 +69,9 @@ const checklist = [
   "Two queen-sized guest bedrooms",
   "Detached 2-car garage with storage",
   "Wrap-around porch & spacious deck",
-  "Partially finished full basement",
+  "Full basement, ready for your workshop",
   "Dedicated laundry room & pantry",
-  "Drilled well water — landlord provided",
+  "Drilled well water —  tested and certified",
   "Professional yard maintenance included",
   "Winter snowplowing included",
   "Dog-friendly — perimeter fence planned",
@@ -95,7 +95,6 @@ const galleryImages = [
   { src: g6,  },
   //{ src: g7,  },
   { src: g10,  },
-  {src: g11,},
 ];
 
 export function PropertyHighlights() {
@@ -129,7 +128,7 @@ export function PropertyHighlights() {
 
       {/* Stats Grid */}
       <section className="bg-black">
-        <div className="max-w-5xl mx-auto grid grid-cols-3 md:grid-cols-6">
+        <div className="max-w-5xl mx-auto grid grid-cols-3 md:grid-cols-7">
           {stats.map((stat, i) => (
             <div
               key={stat.label}
@@ -192,15 +191,15 @@ export function PropertyHighlights() {
             </div>
           </div>
           <div className="relative">
-            <div className="aspect-[3/4] overflow-hidden">
+            <div className="aspect-[4/4] overflow-hidden">
               <ImageWithFallback
                 src={imgHome}
                 alt="Ranch Retreat — property view"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
-            <div className="absolute -bottom-4 -left-4 bg-black text-white p-6 w-48">
-              <p className="text-2xl mb-1" style={{ fontFamily: "Playfair Display, serif" }}>Move-In</p>
+            <div className="absolute -bottom-0 -left-4 bg-black text-white p-6 w-48">
+              <p className="text-2xl mb-0" style={{ fontFamily: "Playfair Display, serif" }}>Move-In</p>
               <p className="text-[11px] tracking-[0.2em] uppercase text-green-400" style={{ fontFamily: "Inter, sans-serif" }}>Ready Now</p>
             </div>
           </div>

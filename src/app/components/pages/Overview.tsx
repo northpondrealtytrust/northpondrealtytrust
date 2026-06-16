@@ -6,6 +6,8 @@ import { ImageWithFallback } from "../figma/ImageWithFallback";
 // ── HERO IMAGE IMPORTS ───────────────────────────────────────
 import HeroImg from "../../../imports/HM_HE1.jpg";
 import HM_HEImg from "../../../imports/HM_HE2.jpg";
+import HM_HE1Img from "../../../imports/HM_HE3.jpg";
+import HM_HE2Img from "../../../imports/HM_HE4.jpg";
 import hero3 from "../../../imports/hero/hero3.jpg";
 //import h52 from "../../../imports/hero/h52.png";
 import hero2 from "../../../imports/hero/hero2.png";
@@ -32,6 +34,8 @@ import EndImg from "../../../imports/HomePageEnd.jpg";
 const heroSlides = [
   { src: HM_HEImg, alt: "Gourmet kitchen", label: "Brand New Kitchen" },
   { src: HeroImg, alt: "Private forest — Maine Retreat", label: "Exceptional Country Living" },
+  { src: HM_HE1Img, alt: "Gkitchen", label: "B" },
+  { src: HM_HE2Img, alt: "G", label: "B" },
   //{ src: hero2, alt: "Ranch home exterior", label: "Move-In Ready" },
 ];
 
@@ -76,7 +80,7 @@ const features = [
 ];
 
 const galleryImages = [
-  { src: H52, alt: "Exceptional Country Living" },
+  { src: EndImg, alt: "Exceptional Country Living" },
   { src: hg2, alt: "Brand New Kitchen" },
   { src: lvkt, alt: "Living Room to Kitchen" },
   { src: imgHg20, alt: "Guest Bathroom" },
@@ -437,7 +441,7 @@ Today we offer carefully selected:
           <div className="grid md:grid-cols-3 gap-6">
             {[
                {
-                img: hero3,
+                img: H51,
                 label: "VIEW AROUND HOME",
                 desc: "Indoor-Outdoor Living · Full Perimeter",
                 path: "/outdoor-living",
@@ -502,7 +506,7 @@ Today we offer carefully selected:
      <section className="relative mb-8 md:mb-12">
   <div className="max-w-full mx-full overflow-hidden rounded-xl">
     <ImageWithFallback
-      src={EndImg}
+      src={hero3}
       alt="Featured Property"
       className="w-full h-full md:h-[650px] object-cover"
     />
