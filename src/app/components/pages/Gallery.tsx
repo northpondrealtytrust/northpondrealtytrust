@@ -3,7 +3,7 @@ import { useState } from "react";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
 import HeroImg from "../../../imports/Gallery/Hero.jpg";
 import Img1 from "../../../imports/Gallery/1.jpg";
-import Img2 from "../../../imports/Gallery/2.jpeg";
+import Img2 from "../../../imports/Gallery/2.JPEG";
 import Img3 from "../../../imports/Gallery/3.jpeg";
 import Img4 from "../../../imports/Gallery/4.jpeg";
 import Img5 from "../../../imports/Gallery/5.jpeg";
