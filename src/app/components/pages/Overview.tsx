@@ -543,7 +543,7 @@ export function Overview() {
             {[
                {
                 img: hero3,
-                label: "Mastefully Renovated",
+                label: "Mastefully Renovated Maine Retreat",
                 desc: "Indoor-Outdoor Living · Full Perimeter",
                 path: "/outdoor-living",
               },
