@@ -1,17 +1,17 @@
 import { Link } from "react-router";
 import { useState } from "react";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
-import HeroImg from "../../../imports/Gallery/Hero.jpg";
+//import HeroImg from "../../../imports/Gallery/Hero.jpg";
 import Img1 from "../../../imports/Gallery/1.jpg";
 import Img2 from "../../../imports/Gallery/2.jpg";
 import Img3 from "../../../imports/Gallery/3.jpg";
 import Img4 from "../../../imports/Gallery/4.jpg";
 import Img5 from "../../../imports/Gallery/5.jpg";
-import Img6 from "../../../imports/Gallery/6.Jpg";
-import Img7 from "../../../imports/Gallery/7.Jpg";
-import Img8 from "../../../imports/Gallery/8.Jpg";
-import Img9 from "../../../imports/Gallery/9.Jpg";
-import Img10 from "../../../imports/Gallery/10.Jpg";
+import Img6 from "../../../imports/Gallery/6.jpg";
+import Img7 from "../../../imports/Gallery/7.jpg";
+import Img8 from "../../../imports/Gallery/8.jpg";
+import Img9 from "../../../imports/Gallery/9.jpg";
+import Img10 from "../../../imports/Gallery/10.jpg";
 import Img11 from "../../../imports/Gallery/11.jpg";
 import Img12 from "../../../imports/Gallery/12.jpg";
 import Img13 from "../../../imports/Gallery/13.jpg";
@@ -23,11 +23,11 @@ import Img18 from "../../../imports/Gallery/18.jpg";
 import Img19 from "../../../imports/Gallery/19.jpg";
 import Img20 from "../../../imports/Gallery/20.jpg";
 import Img21 from "../../../imports/Gallery/21.jpg";
-//import g11 from "../../../imports/property/g11.jpg";
+import Img22 from "../../../imports/Gallery/22.jpg";
 
 
 const galleryImages = [
-  Img1,
+  Img22,
   Img2,
   Img3,
   Img4,
@@ -48,6 +48,7 @@ const galleryImages = [
   Img19,
   Img20, 
   Img21,
+  //Img22,
 ];
 
 export function gallery() {
@@ -59,7 +60,7 @@ export function gallery() {
       <section className="relative h-[90svh] min-h-[450px]">
           
               <ImageWithFallback
-                src={HeroImg}
+                src={Img20}
                 alt="Modern Living — Ranch Retreat"
                 className="w-full h-full object-cover"
               />
