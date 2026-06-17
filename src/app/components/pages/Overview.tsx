@@ -8,6 +8,7 @@ import HeroImg from "../../../imports/HM_HE1.jpg";
 import HM_HEImg from "../../../imports/HM_HE2.jpg";
 import HM_HE1Img from "../../../imports/HM_HE3.jpg";
 import HM_HE2Img from "../../../imports/HM_HE4.jpg";
+import HM_HE5Img from "../../../imports/HM_HE5.jpg";
 import hero3 from "../../../imports/hero/hero3.jpg";
 //import h52 from "../../../imports/hero/h52.png";
 import hero2 from "../../../imports/hero/hero2.png";
@@ -35,6 +36,7 @@ import am4 from "../../../imports/hero/am4.png";
 const heroSlides = [
   { src: HM_HEImg, alt: "Gourmet kitchen", label: "Brand New Kitchen" },
   { src: HeroImg, alt: "Private forest — Maine Retreat", label: "Exceptional Country Living" },
+   { src: HM_HE5Img, alt: "P", label: "Living" },
   { src: HM_HE1Img, alt: "Gkitchen", label: "B" },
   { src: HM_HE2Img, alt: "G", label: "B" },
   //{ src: hero2, alt: "Ranch home exterior", label: "Move-In Ready" },
@@ -247,12 +249,12 @@ export function Overview() {
               <em>Since 1975</em>
             </h2>
             <p
-              className="text-gray-600 leading-relaxed text-2sm mb-8"
+              className="text-gray-600 leading-relaxed text-2sm mb-4"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-             Our story begins in 1975 when North Pond Realty Trust quietly started acquiring and curating exceptional properties across Oxford County, Maine . It began with the purchase of land in the Norway, Maine at North Pond—the 273-acre spring-fed drainage that feeds Lake Pennesseewassee (Norway Lake).The second acquisition was a stunning mountain parcel in Andover, Maine, just 30 minutes from Sunday River Ski and Golf Resort.The rest is history.
-Today we offer carefully selected : Occasionally North Pond Realty Trust is able to offer carefully selected:   
+             Our story begins in 1975 when North Pond Realty Trust quietly started acquiring and curating exceptional properties across Oxford County, Maine . It began with the purchase of land in the Norway, Maine area at North Pond—the 273-acre spring-fed drainage that feeds Lake Pennesseewassee (Norway Lake).The second acquisition was a stunning mountain parcel in Andover, Maine, just 30 minutes from Sunday River Ski and Golf Resort.The rest is history.  
             </p>
+            <p className="text-gray-700 leading-relaxed text-2sm mb-2">Occasionally North Pond Realty Trust is able to offer carefully selected:</p>
             <div className="grid grid-cols-2 gap-x-8 gap-y-2 mb-8">
               {features.map((f) => (
                 <div key={f} className="flex items-center gap-2">
@@ -266,13 +268,13 @@ Today we offer carefully selected : Occasionally North Pond Realty Trust is able
                 </div>
               ))}
             </div>
-            <Link
+           {/*<Link
               to="/features"
               className="inline-flex items-center gap-2 text-[15px] tracking-[0.15em] uppercase text-black border-b border-black pb-0.5 hover:gap-4 transition-all"
               style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
             >
                Featured Property:
-            </Link>
+            </Link>*/}
           </div>
 
           {/* Stats Grid */}
@@ -424,7 +426,7 @@ Today we offer carefully selected : Occasionally North Pond Realty Trust is able
     className="px-8 py-4 bg-black text-white text-[12px] tracking-[0.2em] uppercase hover:bg-gray-900 transition-colors"
     style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
   >
-    Featured Maine Retreat →
+    Featured Property For Sale & Rent →
   </button>
 </section>
 
@@ -494,7 +496,7 @@ Today we offer carefully selected : Occasionally North Pond Realty Trust is able
         </div>
         <div className="flex gap-3">
           <Link
-            to="/gallery"
+            to="/features"
             onClick={() => setShowRetreatModal(false)}
             className="flex-1 py-3 bg-black text-white text-[11px] tracking-[0.18em] uppercase text-center hover:bg-gray-900 transition-colors"
             style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
@@ -502,12 +504,12 @@ Today we offer carefully selected : Occasionally North Pond Realty Trust is able
             View Full Property
           </Link>
           <Link
-            to="/schedule-showing"
+            to="/gallery"
             onClick={() => setShowRetreatModal(false)}
             className="flex-1 py-3 border border-black text-black text-[11px] tracking-[0.18em] uppercase text-center hover:bg-gray-50 transition-colors"
             style={{ fontFamily: "Inter, sans-serif" }}
           >
-            Contact Us
+            Gallery
           </Link>
         </div>
       </div>
@@ -519,10 +521,10 @@ Today we offer carefully selected : Occasionally North Pond Realty Trust is able
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-6">
             <p
-              className="text-bold[49px] tracking-[0.2em] uppercase text-gray-400 mb-3"
+              className="text-bold[51px] tracking-[0.2em] uppercase text-gray-600 mb-3"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              The Property
+              "Maine Retreat For Lease"
             </p>
             <h2
               className="text-4xl text-black"
@@ -531,8 +533,8 @@ Today we offer carefully selected : Occasionally North Pond Realty Trust is able
               Property Highlights
             </h2>
             <p
-              className="text-gray-500 mt-2 italic"
-              style={{ fontFamily: "Cormorant Garamond, serif", fontSize: "1.2rem" }}
+              className="text-gray-700 mt-2 italic"
+              style={{ fontFamily: "Cormorant Garamond, serif", fontSize: "1.5rem" }}
             >
               A perfect blend of style and convenience
             </p>

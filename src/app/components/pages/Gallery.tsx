@@ -67,7 +67,7 @@ export function gallery() {
                   PROPERTY GALLERY
                 </h1>
                 <p
-                  className="text-3xl sm:text-4xl text-white/90 italic"
+                  className="text-3xl sm:text-4xl text-white/90 "
                   style={{ fontFamily: "Cormorant Garamond, serif", fontWeight: 400 }}
                 >
                   Explore a curated collection of interiors,
@@ -119,7 +119,7 @@ export function gallery() {
       </section>
 
       {/* GALLERY GRID */}
-     {/* <section className="px-6 pb-10">
+      <section className="px-6 pb-10">
         <div className="max-w-7xl mx-auto columns-1 md:columns-2 lg:columns-4 gap-6 space-y-6">
           {galleryImages.map((image, index) => (
             <div
@@ -135,53 +135,8 @@ export function gallery() {
             </div>
           ))}
         </div>
-      </section>*/}
+      </section>
 
-        {/* GALLERY GRID */}
-     <section className="px-6 pb-20">
-  <div className="max-w-7xl mx-auto">
-
-    <div className="flex gap-3 h-[550px] overflow-hidden">
-
-      {galleryImages.map((image, index) => (
-        <div
-          key={index}
-          onClick={() => setActiveIndex(index)}
-          className={`
-            relative cursor-pointer overflow-hidden
-            transition-all duration-700 ease-in-out
-            rounded-[30px]
-            ${activeIndex === index ? "flex-[20]" : "flex-[1]"}
-          `}
-        >
-          <img
-            src={image}
-            alt={`Gallery ${index + 1}`}
-            className="w-[2600vh] h-full object-cover"
-          />
-
-          <div />
-
-          {activeIndex === index && (
-            <div className="absolute bottom-8 left-8 text-white">
-              <p className="uppercase tracking-[0.3em] text-xs mb-2">
-                North Pond Realty Trust
-              </p>
-
-              <h3
-                className="text-3xl"
-                style={{ fontFamily: "Playfair Display, serif" }}
-              >
-                Property View {index + 1}
-              </h3>
-            </div>
-          )}
-        </div>
-      ))}
-
-    </div>
-  </div>
-</section>
 
 
       {/* STATS */}

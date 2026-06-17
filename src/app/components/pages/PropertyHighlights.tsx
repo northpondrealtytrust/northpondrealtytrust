@@ -29,7 +29,7 @@ const stats = [
   { value: "2", label: "Full Baths", sub: "Primary & Guest" },
   { value: "7", label: "rooms", sub: "& full-basement" },
   { value: "2", label: "Private Acres", sub: "Wooded lot" },
-  { value: "1680ft", label: "to Road", sub: "Crockett Ridge" },
+  { value: "1680 sqft", label: "to Road", sub: "Crockett Ridge" },
   { value: "2", label: "Car Garage", sub: "Detached" },
   { value: "10", label: "min", sub: "Public Boat Ramps" },
 ];
