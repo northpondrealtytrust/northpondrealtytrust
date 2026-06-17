@@ -110,7 +110,7 @@ export function Footer() {
                   className="text-[16px] text-gray-200 hover:text-yellow-400 transition-colors"
                   style={{ fontFamily: "Inter, sans-serif" }}
                 >
-                  +1 (202) 258-3575
+                  +1 (207)890-6179
                 </a>
               </li>
             </ul>

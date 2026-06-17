@@ -5,7 +5,7 @@ import { ImageWithFallback } from "../figma/ImageWithFallback";
 import imgForest from "../../../imports/property/Private_Forest-1.jpg";
 import imgHome from "../../../imports/property/Neat_and_clean_home_with_peace-1.jpg";
 import imgKitchen from "../../../imports/property/livingrmkit.jpg";
-import imgH3 from "../../../imports/property/h3.jpeg";
+import imgH3 from "../../../imports/property/h3.jpg";
 import imgH5 from "../../../imports/property/h5.jpg";
 import imgHg1 from "../../../imports/property/hg1.jpg";
 
@@ -17,7 +17,7 @@ import g4 from "../../../imports/property/g4.jpg";
 import g5 from "../../../imports/property/g5.jpg";
 import g6 from "../../../imports/property/g6.jpg";
 import g7 from "../../../imports/property/g7.jpg";
-import g8 from "../../../imports/property/g8.png";
+import g8 from "../../../imports/property/g8.jpg";
 import g9 from "../../../imports/property/g9.png";
 import g10 from "../../../imports/property/g10.jpg";
 import WaterfrontImg from "../../../imports/property/Waterfront.jpeg";

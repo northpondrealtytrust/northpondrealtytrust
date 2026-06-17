@@ -3,21 +3,27 @@ import { useState } from "react";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
 import HeroImg from "../../../imports/Gallery/Hero.jpg";
 import Img1 from "../../../imports/Gallery/1.jpg";
-import Img2 from "../../../imports/Gallery/2.JPEG";
-import Img3 from "../../../imports/Gallery/3.JPEG";
-import Img4 from "../../../imports/Gallery/4.JPEG";
-import Img5 from "../../../imports/Gallery/5.JPEG";
-import Img6 from "../../../imports/Gallery/6.JPEG";
-import Img7 from "../../../imports/Gallery/7.JPEG";
-import Img8 from "../../../imports/Gallery/8.JPEG";
-import Img9 from "../../../imports/Gallery/9.JPEG";
-import Img10 from "../../../imports/Gallery/10.JPEG";
-import Img11 from "../../../imports/Gallery/11.JPEG";
-import Img12 from "../../../imports/Gallery/12.JPEG";
-import Img13 from "../../../imports/Gallery/13.JPEG";
+import Img2 from "../../../imports/Gallery/2.jpg";
+import Img3 from "../../../imports/Gallery/3.jpg";
+import Img4 from "../../../imports/Gallery/4.jpg";
+import Img5 from "../../../imports/Gallery/5.jpg";
+import Img6 from "../../../imports/Gallery/6.Jpg";
+import Img7 from "../../../imports/Gallery/7.Jpg";
+import Img8 from "../../../imports/Gallery/8.Jpg";
+import Img9 from "../../../imports/Gallery/9.Jpg";
+import Img10 from "../../../imports/Gallery/10.Jpg";
+import Img11 from "../../../imports/Gallery/11.jpg";
+import Img12 from "../../../imports/Gallery/12.jpg";
+import Img13 from "../../../imports/Gallery/13.jpg";
 import Img14 from "../../../imports/Gallery/14.jpg";
 import Img15 from "../../../imports/Gallery/15.jpg";
-import g11 from "../../../imports/property/g11.jpg";
+import Img16 from "../../../imports/Gallery/16.jpg";
+import Img17 from "../../../imports/Gallery/17.jpg";
+import Img18 from "../../../imports/Gallery/18.jpg";
+import Img19 from "../../../imports/Gallery/19.jpg";
+import Img20 from "../../../imports/Gallery/20.jpg";
+import Img21 from "../../../imports/Gallery/21.jpg";
+//import g11 from "../../../imports/property/g11.jpg";
 
 
 const galleryImages = [
@@ -36,7 +42,12 @@ const galleryImages = [
   Img13,
   Img14,
   Img15,
-  g11,
+  Img16,
+  Img17, 
+  Img18,
+  Img19,
+  Img20, 
+  Img21,
 ];
 
 export function gallery() {

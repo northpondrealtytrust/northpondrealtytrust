@@ -496,7 +496,7 @@ export function Overview() {
         </div>
         <div className="flex gap-3">
           <Link
-            to="/features"
+            to="/property-Highlights"
             onClick={() => setShowRetreatModal(false)}
             className="flex-1 py-3 bg-black text-white text-[11px] tracking-[0.18em] uppercase text-center hover:bg-gray-900 transition-colors"
             style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
@@ -524,7 +524,7 @@ export function Overview() {
               className="text-bold[51px] tracking-[0.2em] uppercase text-gray-600 mb-3"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              "Maine Retreat For Lease"
+              "Maine Retreat For Rent & Lease"
             </p>
             <h2
               className="text-4xl text-black"
@@ -542,8 +542,8 @@ export function Overview() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
                {
-                img: H51,
-                label: "VIEW AROUND HOME",
+                img: hero3,
+                label: "Mastefully Renovated",
                 desc: "Indoor-Outdoor Living · Full Perimeter",
                 path: "/outdoor-living",
               },
@@ -607,7 +607,7 @@ export function Overview() {
      <section className="relative mb-8 md:mb-12">
   <div className="max-w-full mx-full overflow-hidden rounded-xl">
     <ImageWithFallback
-      src={hero3}
+      src={H51}
       alt="Featured Property"
       className="w-full h-full md:h-[650px] object-cover"
     />
