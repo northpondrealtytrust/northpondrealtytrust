@@ -128,13 +128,13 @@ export function PropertyHighlights() {
 
       {/* Stats Grid */}
       <section className="bg-black">
-        <div className="max-w-5xl mx-auto grid grid-cols-3 md:grid-cols-7">
+        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-7">
           {stats.map((stat, i) => (
             <div
               key={stat.label}
               className={`py-2 px-4 text-center text-white ${i < stats.length - 1 ? "border-r border-gray-800" : ""}`}
             >
-              <p className="text-2xl sm:text-3xl" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>{stat.value}</p>
+              <p className="text-2xl sm:text-2xl" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>{stat.value}</p>
               <p className="text-[14px] tracking-[0.2em] uppercase text-gray-300 mt-1" style={{ fontFamily: "Inter, sans-serif" }}>{stat.label}</p>
               <p className="text-[12.6px] text-gray-300 mt-0.5" style={{ fontFamily: "Inter, sans-serif" }}>{stat.sub}</p>
             </div>
@@ -164,7 +164,7 @@ export function PropertyHighlights() {
                   />
                 </div>
                 <div className="p-5">
-                  <h3 className="text-xl text-black mb-2" style={{ fontFamily: "Playfair Display, serif", fontWeight: 600 }}>{card.title}</h3>
+                  <h3 className="text-l text-black mb-2" style={{ fontFamily: "Playfair Display, serif", fontWeight: 600 }}>{card.title}</h3>
                   <p className="text-1sm text-gray-800 leading-relaxed" style={{ fontFamily: "Inter, sans-serif" }}>{card.body}</p>
                 </div>
               </div>
