@@ -60,8 +60,8 @@ sub: "Property Stewardship"
 },
 {
 value: "Trusted",
-label: "Generations of",
-sub: "Legacy"
+label: "Life-long",
+sub: "Alliances"
 },
 ];
 
