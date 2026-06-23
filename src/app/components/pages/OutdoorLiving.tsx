@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
-import imgForest from "../../../imports/OutdoorLiving/privateforest1.jpg";
+import imgForest from "../../../imports/OutdoorLiving/privateforest1.jpeg";
 import HeroImg from "../../../imports/OutdoorLiving/OutdoorLivingHero.png";
 import Hero1Img from "../../../imports/OutdoorLiving/OLHero1.jpg"; // ⚠️ REPLACE with nicer porch photo
 import WinterImg from "../../../imports/Details/DetailPF.png";
