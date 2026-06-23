@@ -99,7 +99,7 @@ export function Footer() {
                   style={{ fontFamily: "Inter, sans-serif" }}
                 >
                  
-                  Norway, Maine 04268
+                  Norway, Maine 
                 </span>
               </li>
               <li className="flex items-center gap-2.5">

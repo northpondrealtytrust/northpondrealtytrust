@@ -248,9 +248,14 @@ export function Overview() {
               className="text-gray-600 leading-relaxed text-2sm mb-4"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              Our story begins in 1975 when North Pond Realty Trust  started  and curating exceptional properties across Oxford County, Maine.It began with the purchase of land in the Norway, Maine area at North Pond—the 273-acre spring-fed Pond that feeds Lake Pennesseewassee (Norway Lake).The second acquisition was a stunning mountain parcel in Andover, Maine, just 30 minutes from Sunday River Ski and Golf Resort.The rest have been to improve and protect the core parcels for future generations.
+              Our story begins in 1975 when North Pond Realty Trust started curating exceptional properties across Oxford County, Maine. It began with the purchase of land in the Norway, Maine area at North Pond—the 273-acre spring-fed pond that feeds Lake Pennesseewassee (Norway Lake).
+
+The second acquisition was a stunning mountain parcel in Andover, Maine, just 30 minutes from Sunday River Ski and Golf Resort.
+
+More recent acquisitions have been to improve and protect these core parcels for future generations.
+
             </p>
-            <p className="text-gray-700 leading-relaxed text-2sm mb-2"> North Pond Realty Trust Occasionally is able to offer carefully selected:</p>
+            <p className="text-gray-700 leading-relaxed text-2sm mb-2"> North Pond Realty Trust Occasionally is able to offer selected:</p>
             <div className="grid grid-cols-2 gap-x-8 gap-y-2 mb-8">
               {features.map((f) => (
                 <div key={f} className="flex items-center gap-2">
@@ -521,7 +526,7 @@ export function Overview() {
               <div className="grid grid-cols-2 gap-2 mb-7">
                 {[
                   "3 Bedrooms · 2 Bathrooms",
-                  "2 Private Acres",
+                  "2  Acres of lawns and woods",
                   "White Oak Hardwood Floors",
                   "Gourmet Kitchen",
                   "Private Forest Setting",
@@ -563,7 +568,7 @@ export function Overview() {
               className="text-bold[51px] tracking-[0.2em] uppercase text-gray-600 mb-3"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              "Maine Retreat For Rent & Lease"
+              "Maine Retreat " For Rent & Lease
             </p>
             <h2
               className="text-4xl text-black"

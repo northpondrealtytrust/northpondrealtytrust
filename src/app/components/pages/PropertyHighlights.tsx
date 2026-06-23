@@ -28,7 +28,7 @@ const stats = [
   { value: "3", label: "Bedrooms", sub: "" },
   { value: "2", label: "Full Baths", sub: "Primary & Guest" },
   { value: "7", label: "rooms", sub: "& Basement" },
-  { value: "2", label: "2 Acres", sub: "Lawns and Wood Lot" },
+  { value: "2", label: " Acres", sub: "Lawns and Wood Lot" },
   { value: " 1680 sq ft", label: "Liveable Space", sub: "" },
   { value: "2", label: "Car Garage", sub: "Detached" },
   { value: "3", label: " Miles to", sub: "Public Boat Ramps" },

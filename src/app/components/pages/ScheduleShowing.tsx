@@ -183,7 +183,7 @@ const [form, setForm] = useState<FormData>({
                 </a>
                 <div className="flex items-start gap-3 text-3sm text-gray-600" style={{ fontFamily: "Inter, sans-serif" }}>
                   <MapPin size={14} className="text-gray-400 mt-0.5 shrink-0" />
-                  Crockett Ridge Road · Norway, Maine 04268
+                  Crockett Ridge Road · Norway, Maine 
                 </div>
               </div>
             </div>
