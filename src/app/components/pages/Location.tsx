@@ -10,7 +10,7 @@ import imgHg1 from "../../../imports/hg1.jpg";
 import imgHg3 from "../../../imports/hg3.jpg";
 import imgHg20 from "../../../imports/hg20.jpg";
 import imgKitchen from "../../../imports/livingrmkit.jpg";
-import locationhero from "../../../imports/Location/locationhero.jpg";
+import locationhero from "../../../imports/Location/locationhero.jpeg";
 import HeroImg from "../../../imports/OutdoorLiving/OutdoorLivingHero.png";
 import GImg from "../../../imports/Details/DetailG.png";
 import WAImg from "../../../imports/Location/LOCWA.jpg";
@@ -28,27 +28,7 @@ const driveTimes = [
 ];
 
 const areaHighlights = [
-  {
-    title: "Public Boat Ramps",
-    sub: "Norway Lake & North Pond",
-    body: "Two public boat ramps just 2 miles from the driveway. Norway Lake and North Pond offer boating, fishing, swimming, kayaking, and paddleboarding through all warm-weather months. This is Maine lake country at its finest.",
-    stat: "2 miles away",
-    img: WAImg,
-  },
-  {
-    title: "Ski & Golf",
-    sub: "World-Class Recreation",
-    body: "Maine's premier ski areas including Sunday River and Shawnee Peak are within 45 minutes. Multiple championship golf courses are equally accessible. Four-season recreation is not just a promise — it's a reality here.",
-    stat: "45 minutes",
-    img: HeroImg,
-  },
-  {
-    title: "Portland, Maine",
-    sub: "Maine's Cultural Hub",
-    body: "Portland — Maine's largest city and one of America's most celebrated small cities — is just one hour away. World-class dining, arts, Old Port, Jetport, shopping, and Maine Medical Center are all within easy reach.",
-    stat: "1 hour",
-    img: imgForest,
-  },
+  
   {
     title: "Oxford Hills Nature",
     sub: "Scenic Oxford County",
@@ -96,7 +76,7 @@ export function Location() {
         />
         <div className="absolute left-0 top-0 h-full w-1/3 bg-gradient-to-r from-black/50 to-transparent" />
         <div className="absolute inset-0 flex flex-col items-start justify-end pb-16 px-6 sm:px-12 lg:px-20">
-          <nav className="flex items-center gap-2 text-white/90 text-[11px] tracking-wider uppercase mb-4" style={{ fontFamily: "Inter, sans-serif" }}>
+          <nav className="flex items-center gap-2 text-white/200 text-[11px] tracking-wider uppercase mb-4" style={{ fontFamily: "Inter, sans-serif" }}>
             <Link to="/" className="hover:text-white transition-colors">Home</Link>
             <span>/</span>
             <span className="text-white">Location</span>
