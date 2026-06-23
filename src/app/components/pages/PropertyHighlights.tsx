@@ -6,7 +6,7 @@ import imgForest from "../../../imports/property/Private_Forest-1.jpg";
 import imgHome from "../../../imports/property/Neat_and_clean_home_with_peace-1.jpg";
 import imgKitchen from "../../../imports/property/livingrmkit.jpg";
 import imgH3 from "../../../imports/property/h3.jpg";
-import imgH5 from "../../../imports/property/h5.jpg";
+import imgH5 from "../../../imports/property/h5.jpeg";
 import imgHg1 from "../../../imports/property/hg1.jpg";
 
 //gallery
@@ -14,7 +14,7 @@ import g1 from "../../../imports/property/g1.jpg";
 import g2 from "../../../imports/property/g2.jpg";
 import g3 from "../../../imports/property/g3.jpg";
 import g4 from "../../../imports/property/g4.jpeg";
-import g5 from "../../../imports/property/g5.jpg";
+import g5 from "../../../imports/property/g5.jpeg";
 import g6 from "../../../imports/property/g6.jpg";
 import g7 from "../../../imports/property/g7.jpg";
 import g8 from "../../../imports/property/g8.jpg";

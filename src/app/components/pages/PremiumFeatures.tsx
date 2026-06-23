@@ -55,7 +55,7 @@ const premiumSections = [
       "Abundant windows & natural light",
       "Fresh neutral paint throughout",
       "High ceilings & airy proportions",
-      " den / home /office FlexibIlity",
+      " Den /home office flexibIlity",
       "Dedicated dining space",
       "Views of private wooded acreage",
     ],
@@ -68,7 +68,7 @@ const premiumSections = [
     bullets: [
       "Recently tested drilled well water",
       "Dedicated laundry room",
-      "Separate pantry storage laundry",
+      "Separate pantry storage & laundry",
       "Full basement — partially finished",
       "Energy-efficient design",
       "Modern electrical systems",
@@ -84,7 +84,7 @@ const premiumSections = [
     bullets: [
       
       "New white oak flooring throughout entire home",
-      "Quartz countertops(kitchen & bath)",
+      "Quartz countertops (kitchen & bath)",
       "Contemporary light fixtures & skylights",
       "Premium hardware & decorative finishes",
       "Fresh paint — warm neutral palette",

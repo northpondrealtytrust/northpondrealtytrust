@@ -4,7 +4,7 @@ import PVImg from "../../../imports/Details/DetailPV.png";
 import IntImg from "../../../imports/Details/DetailInt.png";
 import GImg from "../../../imports/Details/DetailG.png";
 import PFImg from "../../../imports/Details/DetailPF.png";
-import HeroImg from "../../../imports/Details/DetailHero.jpg";
+import HeroImg from "../../../imports/Details/DetailHero.jpeg";
 
 type SpecRow = { label: string; value: string };
 type SpecGroup = { title: string; rows: SpecRow[] };
@@ -51,12 +51,12 @@ const specs: SpecGroup[] = [
   {
     title: "Outdoor & Grounds",
     rows: [
-      { label: "Porch", value: "Wrap-around porch — full perimeter access" },
+      { label: "Porch", value: "Wrap-around porch"},
       { label: "Deck", value: "Spacious entertainment deck" },
       { label: "Private land", value: "2 full acres — mature trees, open green space" },
       { label: "Yard maintenance", value: "Landlord-maintained year-round" },
       { label: "Snowplowing", value: "Winter snowplowing included — landlord provided" },
-      { label: "Pet fence", value: "Pet-friendly perimeter fence planned for installation" },
+      //{ label: "Pet fence", value: "Pet-friendly perimeter fence planned for installation" },
       // CHANGED: wildlife note kept, "f/ulo" unclear — keeping original + note
       { label: "Wildlife", value: "Active wildlife — deer, birds, Maine forest fauna" },
     ],
@@ -66,12 +66,12 @@ const specs: SpecGroup[] = [
     rows: [
       { label: "Road access", value: "All Season Access" },
       { label: "Recreation access", value: "Norway Lake & North Pond — 2 miles (public boat ramps)" },
-      { label: "Nearest town", value: "Norway, Maine (est. 1797) — 10 minutes" },
+      { label: "Nearest town", value: "Norway, Maine — 10 minutes" },
       // CHANGED: "1 hour" → "3½ hours" from screenshot
       { label: "Portland", value: "3½ hours" },
       { label: "Boston", value: "3 hours" },
       { label: "Ski areas & Golf", value: "45 minutes (Sunday River, Pleasant  Mountain)" },
-      { label: "Oxford Hills region", value: "Hiking, canoeing, fishing, mountain biking nearby" },
+      //{ label: "Oxford Hills region", value: "Hiking, canoeing, fishing, mountain biking nearby" },
     ],
   },
   {
@@ -79,7 +79,7 @@ const specs: SpecGroup[] = [
     rows: [
       { label: "Availability", value: "Immediately available — move-in ready" },
       { label: "Rental type", value: "Long-term rental" },
-      { label: "Pets", value: "Pet-friendly · perimeter fence planned" },
+      //{ label: "Pets", value: "Pet-friendly · perimeter fence planned" },
       { label: "Landlord support", value: "Amenable to working with you to make this your home" },
       { label: "Lease", value: "Contact for terms and pricing details" },
 //{ label: "Price", value: "3000$/month with utility fees" },
@@ -165,7 +165,7 @@ className="px-6 py-3 text-[14px] text-gray-700 w-2/5"
       className="text-[18px] tracking-[0.3em] uppercase text-whitebold-600 mb-4"
       style={{ fontFamily: "Inter, sans-serif" }}
     >
-      Don't miss this renovated Maine Test rest.
+    
     </p>
 
     <h2

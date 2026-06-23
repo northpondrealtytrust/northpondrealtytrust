@@ -56,8 +56,8 @@ const stats = [
   },
   {
     value: "Trusted",
-    label: "Life-long Local",
-    sub: "Professional Alliances",
+    label: "Life-long ",
+    sub: "Local Professional Alliances",
   },
 ];
 
@@ -255,7 +255,7 @@ The second acquisition was a stunning mountain parcel in Andover, Maine, just 30
 More recent acquisitions have been to improve and protect these core parcels for future generations.
 
             </p>
-            <p className="text-gray-700 leading-relaxed text-2sm mb-2"> North Pond Realty Trust Occasionally is able to offer selected:</p>
+            <p className="text-gray-700 leading-relaxed text-2sm mb-2"> North Pond Realty Trust is occasionally able to offer selected:</p>
             <div className="grid grid-cols-2 gap-x-8 gap-y-2 mb-8">
               {features.map((f) => (
                 <div key={f} className="flex items-center gap-2">
@@ -526,7 +526,7 @@ More recent acquisitions have been to improve and protect these core parcels for
               <div className="grid grid-cols-2 gap-2 mb-7">
                 {[
                   "3 Bedrooms · 2 Bathrooms",
-                  "2  Acres of lawns and woods",
+                  "2  Acres of Lawns and Woods",
                   "White Oak Hardwood Floors",
                   "Gourmet Kitchen",
                   "Private Forest Setting",
@@ -565,10 +565,10 @@ More recent acquisitions have been to improve and protect these core parcels for
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-6">
             <p
-              className="text-bold[51px] tracking-[0.2em] uppercase text-gray-600 mb-3"
+              className="text-bold[40px] tracking-[0.1em] uppercase text-gray-600 mb-3"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              "Maine Retreat " For Rent & Lease
+              "Maine Retreat" for Rent or Lease
             </p>
             <h2
               className="text-4xl text-black"

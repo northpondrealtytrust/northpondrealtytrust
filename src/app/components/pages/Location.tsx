@@ -20,7 +20,7 @@ import SpringImg from "../../../imports/OutdoorLiving/OLSpring.jpg";
 
 const driveTimes = [
   { value: "1hr", label: "Portland, ME", sub: "Maine's largest city" },
-  { value: "45min", label: "Ski Areas & Golf", sub: "Sunday River, Shawnee Peak" },
+  { value: "45min", label: "Ski Areas & Golf", sub: "Sunday River, Pleasant Mountain" },
   { value: "3hrs", label: "Boston, MA", sub: "Major metro access" },
   { value: "2min", label: "Public Boat Ramps", sub: "Norway Lake & North Pond" },
   { value: "300ft", label: "Crockett Ridge Rd", sub: "Road access from driveway" },
@@ -101,7 +101,7 @@ export function Location() {
             {driveTimes.map((dt) => (
               <div key={dt.label} className="bg-black py-1 px-2 text-center">
                 <p className="text-2xl text-white" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>{dt.value}</p>
-                <p className="text-[14px] tracking-[0.1em] uppercase text-gray-300 mt-1" style={{ fontFamily: "Inter, sans-serif" }}>{dt.label}</p>
+                <p className="text-[14px] tracking-[0.1em] uppercase text-gray-300 mt-1 whitespace-nowrap" style={{ fontFamily: "Inter, sans-serif" }}>{dt.label}</p>
                 <p className="text-[13px] text-gray-300 mt-0.5" style={{ fontFamily: "Inter, sans-serif" }}>{dt.sub}</p>
               </div>
             ))}
@@ -182,12 +182,11 @@ export function Location() {
   style={{ fontFamily: "Inter, sans-serif" }}
 >
   2 Private Acres<br />
-  300 ft to Crockett Ridge Road<br />
   Norway, Maine 04268
 </p>
       <div className="mt-8 text-center">
   <p
-    className="text-[12px] tracking-[0.35em] uppercase text-gray-300 mb-2"
+    className="text-[12px] tracking-[0.3em] uppercase text-gray-300 mb-2"
     style={{ fontFamily: "Inter, sans-serif" }}
   >
     North Pond Realty Trust

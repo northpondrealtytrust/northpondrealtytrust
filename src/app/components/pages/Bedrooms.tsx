@@ -67,7 +67,7 @@ const bedrooms = [
     images: [ bd3, ],
     body: "The first guest bedroom offers generous space for a queen-size bed with room to spare. Clean, well-organized closet space, fresh neutral finishes, and abundant natural light create an inviting environment — equally suited for a family member, guest, or home office.\n\nThe guest wing is served by a fully updated full bathroom with modern fixtures, bright design, and clean, contemporary finishes. Private, quiet, and comfortable — your guests will feel genuinely at home.",
     bullets: [
-      "Queen-size bed configuration",
+      "Twin-size bed opportunity",
       "Generous closet space",
       "Fresh, contemporary finishes",
       "Abundant natural light",
@@ -86,7 +86,7 @@ const bedrooms = [
     images: [bd4],
     body: "The second guest bedroom mirrors the same generous proportions, quality finishes, and natural light that define the rest of this home. Whether used for guests, family members, or as a dedicated home office or creative studio, this room provides real, usable space.\n\nBoth guest rooms share the updated guest full bathroom, which has been completely refreshed with new fixtures, bright design, and a clean contemporary style. This is a home designed for real living — not just for looking good in photographs.",
     bullets: [
-      "Queen-size bed configuration",
+      "Twin-size bed opportunity",
       "Spacious clean closet",
       "Contemporary finishes",
       "Natural light throughout",

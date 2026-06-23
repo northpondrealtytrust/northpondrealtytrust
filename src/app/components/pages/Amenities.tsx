@@ -68,7 +68,7 @@ const amenityGroups = [
     items: [
       { name: "North Pond", sub: "Public boat ramp — 2 miles" },
       { name: "Norway Lake", sub: "Public boat ramp — 2 miles" },
-      { name: "Ski areas", sub: "Sunday River, Shawnee Peak — 45 min" },
+      { name: "Ski areas", sub: "Sunday River, Pleasent Mountain — 45 min" },
       { name: "Golf courses", sub: "Multiple courses — 45 min" },
       { name: "Hiking trails", sub: "Oxford Hills — at your doorstep" },
       { name: "Portland, ME", sub: "Maine's premier city — 1 hour" },
@@ -77,12 +77,12 @@ const amenityGroups = [
   {
     title: "Pet and Family Friendly",
     items: [
-      { name: "Dogs and Family welcome", sub: "Genuinely family friendly property" },
+      { name: "Dogs and Famil welcome", sub: "Genuinely family friendly property" },
       { name: "Perimeter fence planned", sub: "Safe, secure space for your dog" },
       { name: "2 acres to explore", sub: "Room  to run and roam" },
       //{ name: "Private, secure setting", sub: "No traffic, no neighbors — true privacy" },
       //{ name: "solo surroundings", sub: "Trails, woods, and wildlife to discover" },
-      { name: "Collaborative approach", sub: "Landlord works with pet owners" },
+      { name: "Collaborative approach", sub: "Landlord works with tenants" },
     ],
   },
   {
@@ -100,7 +100,7 @@ const amenityGroups = [
     title: "Four-Season Living",
     items: [
       { name: "Spring", sub: "Wildflowers, bird arrivals, garden planting" },
-      { name: "Summer", sub: " porch life Access, outdoor entertaining" },
+      { name: "Summer", sub: " Porch life, outdoor entertaining" },
       { name: "Autumn", sub: "Legendary Maine foliage — Oxford Hills" },
       { name: "Winter", sub: "Snowplowing included, skiing 45 min away" },
       { name: "Wildlife year-round", sub: "Deer, birds, and Maine fauna" },

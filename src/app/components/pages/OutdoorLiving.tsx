@@ -3,7 +3,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
 import imgForest from "../../../imports/OutdoorLiving/privateforest1.jpeg";
-import HeroImg from "../../../imports/OutdoorLiving/OutdoorLivingHero.png";
+import HeroImg from "../../../imports/OutdoorLiving/OutdoorLivingHero.jpg";
 import Hero1Img from "../../../imports/OutdoorLiving/OLHero1.jpg"; // ⚠️ REPLACE with nicer porch photo
 import WinterImg from "../../../imports/Details/DetailPF.png";
 import AutumnImg from "../../../imports/OutdoorLiving/autumn.jpg"; // ⚠️ REPLACE with rich fall colors photo
@@ -69,11 +69,11 @@ const gallery = [
   //{ src: PEImg, label: "Property Exterior" },
   //{ src: GImg, label: "Grounds" },
   //{ src: imgHg3, label: "Barn & Garage" },
-  {src: OLBaseImg, label:"Basement"},
-  { src: StorageImg, label: "Storage" },
-  { src: OBImg, label: "Outbuilding" },
+  //{src: OLBaseImg, label:"Basement"},
+  //{ src: StorageImg, label: "Storage" },
+  //{ src: OBImg, label: "Outbuilding" },
   //{ src: imgKitchen, label: "Interior Access" },
-  { src: OSImg, label: "Outdoor Space" },
+  //{ src: OSImg, label: "Outdoor Space" },
   //{ src: OLNVImg, label: "Natural Views" },
 ];
 
@@ -191,12 +191,12 @@ export function OutdoorLiving() {
       <section className="py-16 px-6 sm:px-12 lg:px-20 bg-black text-white">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-[13px] tracking-[0.3em] uppercase text-gray-300 mb-3" style={{ fontFamily: "Inter, sans-serif" }}>Pet Friendly Property</p> {/* ✅ changed from Dog to Pet */}
-            <h2 className="text-3xl mb-5" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
-              A genuinely pet-friendly property. {/* ✅ updated */}
+            <p className="text-[13px] tracking-[0.3em] uppercase text-gray-300 mb-3" style={{ fontFamily: "Inter, sans-serif" }}> Picnic-friendly ambience </p> {/* ✅ changed from Dog to Pet */}
+            <h2 className="text-4xl mb-5" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
+              A genuinely picnic-friendly ambiance. {/* ✅ updated */}
             </h2>
             <p className="text-gray-300 leading-relaxed mb-6" style={{ fontFamily: "Inter, sans-serif" }}>
-              The landlord plans to install a perimeter fence to create a safe, secure space for your pets. With 2 private wooded acres, your dogs and cats will have space to roam, explore, and thrive in a true Maine country setting. If you have a dog or a cat, this is the property for you. {/* ✅ added cats */}
+             Outdoor grounds and lawns, and a spacious deck provide ample room for picnics and barbecues. Enjoy the Maine seasons outside your rear door.
             </p>
             <Link
               to="/schedule-showing"
@@ -216,14 +216,7 @@ export function OutdoorLiving() {
         </div>
       </section>
 
-      {/* Gallery Slider */}
-      <section className="py-20 px-6 sm:px-12 lg:px-20">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex items-center justify-between mb-3">
-            <div>
-              <p className="text-[13px] tracking-[0.3em] uppercase text-gray-600 mb-1" style={{ fontFamily: "Inter, sans-serif" }}>Outdoor Gallery</p>
-              <h2 className="text-2xl text-black" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>All Seasons</h2>
-            </div>
+      
            {/* <div className="flex gap-2">
               <button onClick={() => emblaApi?.scrollPrev()} className="w-10 h-10 flex items-center justify-center border border-gray-200 hover:bg-black hover:text-white transition-colors">
                 <ChevronLeft size={18} />
@@ -232,21 +225,7 @@ export function OutdoorLiving() {
                 <ChevronRight size={18} />
               </button>
             </div>*/}
-          </div>
-         <div>
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-              {gallery.map((img, i) => (
-                <div key={i}>
-                  <div className="aspect-[3/4] overflow-hidden">
-                    <ImageWithFallback src={img.src} alt={img.label} className="w-full h-full object-cover" />
-                  </div>
-                  <p className="text-[14px] tracking-[0.1em] uppercase text-gray-700 mt-2 text-center" style={{ fontFamily: "Inter, sans-serif" }}>{img.label}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+    
 
       {/* CTA */}
       <section className="py-16 px-6 bg-gray-50 text-center">
