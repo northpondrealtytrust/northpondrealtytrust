@@ -426,7 +426,7 @@ export function Overview() {
     className="px-8 py-4 bg-black text-white text-[12px] tracking-[0.2em] uppercase hover:bg-gray-900 transition-colors"
     style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
   >
-    Featured Property For Sale & Rent →
+     Featured Properties Available →
   </button>
 </section>
 

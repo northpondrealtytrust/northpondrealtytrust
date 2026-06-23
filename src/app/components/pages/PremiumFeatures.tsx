@@ -6,7 +6,7 @@ import imgKitchen from "../../../imports/livingrmkit.jpg";
 import imgH5 from "../../../imports/premium/h5.jpg";
 import imgHg1 from "../../../imports/premium/hg1.jpg";
 import imgHg3 from "../../../imports/premium/hg3.jpg";
-import imgHg20 from "../../../imports/premium/hg20.jpg";
+import imgHg20 from "../../../imports/premium/hg20.jpeg";
 import pk1 from "../../../imports/premium/pk1.png";
 
 

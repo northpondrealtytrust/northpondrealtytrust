@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import { useState } from "react";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
 //import HeroImg from "../../../imports/Gallery/Hero.jpg";
-import Img1 from "../../../imports/Gallery/1.jpg";
+import Img1 from "../../../imports/Gallery/1.jpeg";
 import Img2 from "../../../imports/Gallery/2.jpg";
 import Img3 from "../../../imports/Gallery/3.jpg";
 import Img4 from "../../../imports/Gallery/4.jpg";
@@ -19,15 +19,24 @@ import Img14 from "../../../imports/Gallery/14.jpg";
 import Img15 from "../../../imports/Gallery/15.jpg";
 import Img16 from "../../../imports/Gallery/16.jpg";
 import Img17 from "../../../imports/Gallery/17.jpg";
-import Img18 from "../../../imports/Gallery/18.jpg";
+import Img18 from "../../../imports/Gallery/18.jpeg";
 import Img19 from "../../../imports/Gallery/19.jpg";
 import Img20 from "../../../imports/Gallery/20.jpg";
 import Img21 from "../../../imports/Gallery/21.jpg";
 import Img22 from "../../../imports/Gallery/22.jpg";
+import Img23 from "../../../imports/Gallery/23.jpeg";
+import Img24 from "../../../imports/Gallery/24.jpeg";
+import Img25 from "../../../imports/Gallery/25.jpeg";
+import Img26 from "../../../imports/Gallery/26.jpg";
+import Img27 from "../../../imports/Gallery/27.jpeg";
+import Img28 from "../../../imports/Gallery/28.jpeg";
+import Img29 from "../../../imports/Gallery/29.jpg";
+import Img30 from "../../../imports/Gallery/30.jpeg";
+
 
 
 const galleryImages = [
-  Img22,
+  //Img22,
   Img2,
   Img3,
   Img4,
@@ -46,9 +55,18 @@ const galleryImages = [
   Img17, 
   Img18,
   Img19,
-  Img20, 
+  //Img20, 
   Img21,
-  //Img22,
+  Img22,
+  Img23,
+  Img24,
+  Img25,
+  Img26,
+  Img27,
+  Img28,
+  Img29,
+
+
 ];
 
 export function gallery() {
@@ -60,7 +78,7 @@ export function gallery() {
       <section className="relative h-[90svh] min-h-[450px]">
           
               <ImageWithFallback
-                src={Img20}
+                src={Img30}
                 alt="Modern Living — Ranch Retreat"
                 className="w-full h-full object-cover"
               />
@@ -132,21 +150,21 @@ export function gallery() {
 
       {/* GALLERY GRID */}
       <section className="px-6 pb-10">
-        <div className="max-w-7xl mx-auto columns-1 md:columns-2 lg:columns-4 gap-6 space-y-6">
-          {galleryImages.map((image, index) => (
-            <div
-  key={index}
-  className="overflow-hidden break-inside-avoid group cursor-pointer"
-  onClick={() => setSelectedImage(image)}
->
-              <ImageWithFallback
-  src={image}
-  alt={`Gallery ${index + 1}`}
-  className="w-full object-cover transition-all duration-700 group-hover:scale-105"
-/>
-            </div>
-          ))}
-        </div>
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px]">
+  {galleryImages.map((image, index) => (
+    <div
+      key={index}
+      className="overflow-hidden group cursor-pointer"
+      onClick={() => setSelectedImage(image)}
+    >
+      <ImageWithFallback
+        src={image}
+        alt={`Gallery ${index + 1}`}
+        className="w-full h-[200px] object-cover transition-all duration-700 group-hover:scale-105"
+      />
+    </div>
+  ))}
+</div>
       </section>
 
 

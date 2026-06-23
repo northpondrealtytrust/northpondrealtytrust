@@ -25,13 +25,15 @@ import WaterfrontImg from "../../../imports/property/Waterfront.jpeg";
 
 
 const stats = [
-  { value: "3", label: "Bedrooms", sub: "King + 2 Queen" },
+  { value: "3", label: "Bedrooms", sub: "" },
   { value: "2", label: "Full Baths", sub: "Primary & Guest" },
-  { value: "7", label: "rooms", sub: "& full-basement" },
-  { value: "2", label: "Private Acres", sub: "Wooded lot" },
-  { value: "1680 sqft", label: "to Road", sub: "Crockett Ridge" },
+  { value: "7", label: "rooms", sub: "& full-Basement" },
+  { value: "2", label: "2 Acres", sub: "Lawns and Wood Lot" },
+  { value: "Isolate 1680 sq ft", label: "Liveable Space", sub: "Crockett Ridge" },
   { value: "2", label: "Car Garage", sub: "Detached" },
-  { value: "10", label: "min", sub: "Public Boat Ramps" },
+  { value: "3", label: " Miles to", sub: "Public Boat Ramps" },
+  { value: "15", label: " Minutes to", sub: "Downtown" },
+
 ];
 
 const cards = [
@@ -128,7 +130,7 @@ export function PropertyHighlights() {
 
       {/* Stats Grid */}
       <section className="bg-black">
-        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-7">
+        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-8">
           {stats.map((stat, i) => (
             <div
               key={stat.label}
@@ -143,7 +145,7 @@ export function PropertyHighlights() {
       </section>
 
       {/* Cards Section */}
-      <section className="py-20 px-6 sm:px-12 lg:px-20">
+      <section className="py-20 px-7 sm:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
             <p className="text-[13px] tracking-[0.3em] uppercase text-gray-600 mb-3" style={{ fontFamily: "Inter, sans-serif" }}>The Property</p>
@@ -163,7 +165,7 @@ export function PropertyHighlights() {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                 </div>
-                <div className="p-5">
+                <div className="p-7">
                   <h3 className="text-l text-black mb-2" style={{ fontFamily: "Playfair Display, serif", fontWeight: 600 }}>{card.title}</h3>
                   <p className="text-1sm text-gray-800 leading-relaxed" style={{ fontFamily: "Inter, sans-serif" }}>{card.body}</p>
                 </div>
