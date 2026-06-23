@@ -147,7 +147,7 @@ const [form, setForm] = useState<FormData>({
               </div>
               <div className="border border-gray-100 p-6 mb-6">
                 {/* CHANGE 1: text-[10px] → text-[13px] */}
-                <p className="text-[13px] tracking-[0.3em] uppercase text-gray-600 mb-1" style={{ fontFamily: "Inter, sans-serif" }}>Ranch Retreat</p>
+                <p className="text-[13px] tracking-[0.3em] uppercase text-gray-600 mb-1" style={{ fontFamily: "Inter, sans-serif" }}>Maine Retreat</p>
                 <h3 className="text-2xl text-black mb-3" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>Norway, Maine</h3>
                 <div className="grid grid-cols-2 gap-3 mb-4">
                   {[
