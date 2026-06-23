@@ -23,7 +23,17 @@ export function Footer() {
               className="text-gray-200 text-2sm leading-relaxed max-w-xs"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              Presenting Maine Retreat — a masterfully renovated single-story
+              Presenting{" "}
+<span
+  className="font-bold italic text-green-500"
+  style={{
+    fontFamily: "Georgia, serif",
+    fontSize: "1.25rem",
+  }}
+>
+  Maine Retreat
+</span>{" "}
+— a masterfully renovated single-story
               home on a private 2-acre parcel in the scenic Oxford Hills of
               Norway, Maine. Immediately available for long-term rental.
             </p>
@@ -88,8 +98,7 @@ export function Footer() {
                   className="text-[14px] text-gray-200"
                   style={{ fontFamily: "Inter, sans-serif" }}
                 >
-                  Crockett Ridge Road
-                  <br />
+                 
                   Norway, Maine 04268
                 </span>
               </li>
@@ -110,7 +119,8 @@ export function Footer() {
                   className="text-[16px] text-gray-200 hover:text-yellow-400 transition-colors"
                   style={{ fontFamily: "Inter, sans-serif" }}
                 >
-                  +1 (207)890-6179
+                  
+                   +1 (202) 258 3575
                 </a>
               </li>
             </ul>

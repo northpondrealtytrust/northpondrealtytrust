@@ -75,11 +75,11 @@ const amenityGroups = [
     ],
   },
   {
-    title: "Pet-Friendly",
+    title: "Pet and Family Friendly",
     items: [
-      { name: "Dogs welcome", sub: "Genuinely dog-friendly property" },
+      { name: "Dogs and Family welcome", sub: "Genuinely family friendly property" },
       { name: "Perimeter fence planned", sub: "Safe, secure space for your dog" },
-      { name: "2 acres to explore", sub: "Room for dogs to run and roam" },
+      { name: "2 acres to explore", sub: "Room  to run and roam" },
       { name: "Private, secure setting", sub: "No traffic, no neighbors — true privacy" },
       { name: "solo surroundings", sub: "Trails, woods, and wildlife to discover" },
       { name: "Collaborative approach", sub: "Landlord works with pet owners" },

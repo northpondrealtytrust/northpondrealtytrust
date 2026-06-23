@@ -27,9 +27,9 @@ import WaterfrontImg from "../../../imports/property/Waterfront.jpeg";
 const stats = [
   { value: "3", label: "Bedrooms", sub: "" },
   { value: "2", label: "Full Baths", sub: "Primary & Guest" },
-  { value: "7", label: "rooms", sub: "& full-Basement" },
+  { value: "7", label: "rooms", sub: "& Basement" },
   { value: "2", label: "2 Acres", sub: "Lawns and Wood Lot" },
-  { value: "Isolate 1680 sq ft", label: "Liveable Space", sub: "Crockett Ridge" },
+  { value: " 1680 sq ft", label: "Liveable Space", sub: "" },
   { value: "2", label: "Car Garage", sub: "Detached" },
   { value: "3", label: " Miles to", sub: "Public Boat Ramps" },
   { value: "15", label: " Minutes to", sub: "Downtown" },
@@ -54,7 +54,7 @@ const cards = [
   },
   {
     title: "Premier Location",
-    body: "Set in the Oxford Hills of Norway, Maine — a region celebrated for its natural beauty, four-season recreation, and authentic New England character — with Portland and Ski Areas and Golf Resorts just 45 minutes away .",
+    body: "Set in the Oxford Hills of Norway, Maine — a region celebrated for its natural beauty, four-season recreation, and authentic New England character — with Portland and Ski Areas and Golf Resorts just 45 minutes away.",
     img: imgH3,
   },
 ];
@@ -242,17 +242,20 @@ export function PropertyHighlights() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 sm:py-20 px-4 sm:px-6 bg-black text-white text-center">
+      <section className="py-24 sm:py-28 px-4 sm:px-6 bg-black text-white text-center">
   <div className="max-w-2xl mx-auto">
     <p
-      className="text-[11px] sm:text-[13px] tracking-[0.2em] sm:tracking-[0.3em] uppercase text-gray-300 mb-3 sm:mb-4"
+      
+  className="text-[11px] sm:text-[13px] tracking-[0.1em] sm:tracking-[0.2em] uppercase text-gray-300 mb-6"
+
       style={{ fontFamily: "Inter, sans-serif" }}
     >
       A rare Maine rental opportunity
     </p>
 
     <h2
-      className="text-2xl sm:text-3xl md:text-4xl leading-snug sm:leading-normal mb-4"
+      className="text-2xl sm:text-3xl md:text-4xl leading-snug sm:leading-normal mb-6"
+
       style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}
     >
       Masterfully renovated, move-in ready,

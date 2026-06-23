@@ -36,33 +36,29 @@ import am4 from "../../../imports/hero/am4.png";
 const heroSlides = [
   { src: HM_HEImg, alt: "Gourmet kitchen", label: "Brand New Kitchen" },
   { src: HeroImg, alt: "Private forest — Maine Retreat", label: "Exceptional Country Living" },
-   { src: HM_HE5Img, alt: "P", label: "Living" },
+  { src: HM_HE5Img, alt: "P", label: "Living" },
   { src: HM_HE1Img, alt: "Gkitchen", label: "B" },
   { src: HM_HE2Img, alt: "G", label: "B" },
   //{ src: hero2, alt: "Ranch home exterior", label: "Move-In Ready" },
 ];
 
+
 const stats = [
-{
-value: "1975",
-label: "Founded",
-sub: "North Pond Realty Trust"
-},
-{
-value: "Oxford Hills",
-label: "Oxford County",
-sub: "Western Maine"
-},
-{
-value: "50+",
-label: "Years",
-sub: "Property Stewardship"
-},
-{
-value: "Trusted",
-label: "Life-long",
-sub: "Alliances"
-},
+  {
+    value: "Oxford Hills",
+    label: "Western Maine",
+    sub: "",
+  },
+  {
+    value: "50+",
+    label: "Years",
+    sub: "Property Stewardship",
+  },
+  {
+    value: "Trusted",
+    label: "Life-long Local",
+    sub: "Professional Alliances",
+  },
 ];
 
 const driveStats = [
@@ -72,15 +68,15 @@ const driveStats = [
   { value: "15 min", label: "Public Boat Ramps" },
 ];
 const features = [
-  
-"Recreational Properties",
-"Buildable Shorefront Lots",
-"Mountain-View Parcels",
-"Timberland",
-"Farmland",
-"Woodlots",
-//"Oxford Hills Region",
-//"Western Maine",
+
+  "Recreational Properties",
+  "Buildable Shorefront Lots",
+  "Mountain-View Parcels",
+  "Timberland",
+  "Farmland",
+  "Woodlots",
+  //"Oxford Hills Region",
+  //"Western Maine",
 ];
 
 const galleryImages = [
@@ -138,21 +134,21 @@ export function Overview() {
               className="text-5xl sm:text-6xl lg:text-7xl text-white mb-2 leading-none"
               style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}
             >
-             Welcome to North Pond Realty Trust
+              Welcome to North Pond Realty Trust
             </h1>
             <p
               className="text-xl sm:text-2xl text-white/90 mb-1 italic"
               style={{ fontFamily: "Cormorant Garamond, serif" }}
             >
-              
+
             </p>
             <p
               className="text-[12px] tracking-[0.2em] uppercase text-white/80 mb-8"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              
+
             </p>
-            
+
             <div className="flex gap-4 mt-8">
               <Link
                 to="/property-highlights"
@@ -185,7 +181,7 @@ export function Overview() {
         </div>
 
         {/* Carousel Controls */}
-       {/* <button
+        {/* <button
           onClick={() => emblaApi?.scrollPrev()}
           className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center bg-black/30 backdrop-blur-sm text-white hover:bg-black/50 transition-colors"
         >
@@ -232,7 +228,7 @@ export function Overview() {
       <section className="pt-20 pb-8 px-6 sm:px-10 lg:px-16 max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-           <p
+            <p
               className="text-semibold[20px] tracking-[0.3em] uppercase text-gray-700 mb-3"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
@@ -252,9 +248,9 @@ export function Overview() {
               className="text-gray-600 leading-relaxed text-2sm mb-4"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-             Our story begins in 1975 when North Pond Realty Trust quietly started acquiring and curating exceptional properties across Oxford County, Maine . It began with the purchase of land in the Norway, Maine area at North Pond—the 273-acre spring-fed drainage that feeds Lake Pennesseewassee (Norway Lake).The second acquisition was a stunning mountain parcel in Andover, Maine, just 30 minutes from Sunday River Ski and Golf Resort.The rest is history.  
+              Our story begins in 1975 when North Pond Realty Trust  started  and curating exceptional properties across Oxford County, Maine.It began with the purchase of land in the Norway, Maine area at North Pond—the 273-acre spring-fed Pond that feeds Lake Pennesseewassee (Norway Lake).The second acquisition was a stunning mountain parcel in Andover, Maine, just 30 minutes from Sunday River Ski and Golf Resort.The rest have been to improve and protect the core parcels for future generations.
             </p>
-            <p className="text-gray-700 leading-relaxed text-2sm mb-2">Occasionally North Pond Realty Trust is able to offer carefully selected:</p>
+            <p className="text-gray-700 leading-relaxed text-2sm mb-2"> North Pond Realty Trust Occasionally is able to offer carefully selected:</p>
             <div className="grid grid-cols-2 gap-x-8 gap-y-2 mb-8">
               {features.map((f) => (
                 <div key={f} className="flex items-center gap-2">
@@ -268,7 +264,7 @@ export function Overview() {
                 </div>
               ))}
             </div>
-           {/*<Link
+            {/*<Link
               to="/features"
               className="inline-flex items-center gap-2 text-[15px] tracking-[0.15em] uppercase text-black border-b border-black pb-0.5 hover:gap-4 transition-all"
               style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
@@ -278,35 +274,78 @@ export function Overview() {
           </div>
 
           {/* Stats Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
-            {stats.map((stat) => (
-              <div
-                key={stat.label}
-                className="border border-gray-100 p-6 sm:p-8 text-center hover:shadow-lg transition-shadow duration-300"
-                style={{ boxShadow: "0 2px 20px rgba(0,0,0,0.04)" }}
-              >
-                <p
-                  className="text-4xl sm:text-5xl text-black mb-1"
-                  style={{ fontFamily: "Playfair Display, serif", fontWeight: 400 }}
-                >
-                  {stat.value}
-                </p>
-                <p
-                  className="text-[13px] tracking-[0.1em] uppercase text-black mb-1"
-                  style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
-                >
-                  {stat.label}
-                </p>
-                <p
-                  className="text-[13px] sm:text-[14px] text-gray-600"
-                  style={{ fontFamily: "Inter, sans-serif" }}
-                >
-                  {stat.sub}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
+          <div className="flex flex-col items-center gap-6">
+
+  {/* Top Card */}
+  <div
+    className="border border-gray-100 p-6 sm:p-8 text-center w-full max-w-[320px]"
+    style={{ boxShadow: "0 2px 20px rgba(0,0,0,0.04)" }}
+  >
+    <p
+      className="text-2xl text-black mb-2"
+      style={{
+        fontFamily: "Playfair Display, serif",
+        fontWeight: 400,
+        lineHeight: "1.1",
+      }}
+    >
+      {stats[0].value}
+    </p>
+
+    <p
+      className="text-[13px] tracking-[0.1em] uppercase text-black mb-1"
+      style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
+    >
+      {stats[0].label}
+    </p>
+
+    <p
+      className="text-[13px] text-gray-600"
+      style={{ fontFamily: "Inter, sans-serif" }}
+    >
+      {stats[0].sub}
+    </p>
+  </div>
+
+  {/* Bottom Two Cards */}
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-[700px]">
+
+    {stats.slice(1).map((stat) => (
+      <div
+        key={stat.label}
+        className="border border-gray-100 p-6 sm:p-8 text-center"
+        style={{ boxShadow: "0 2px 20px rgba(0,0,0,0.04)" }}
+      >
+        <p
+          className="text-2xl text-black mb-2"
+          style={{
+            fontFamily: "Playfair Display, serif",
+            fontWeight: 400,
+            lineHeight: "1.1",
+          }}
+        >
+          {stat.value}
+        </p>
+
+        <p
+          className="text-[13px] tracking-[0.1em] uppercase text-black mb-1"
+          style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
+        >
+          {stat.label}
+        </p>
+
+        <p
+          className="text-[13px] text-gray-600"
+          style={{ fontFamily: "Inter, sans-serif" }}
+        >
+          {stat.sub}
+        </p>
+      </div>
+    ))}
+
+  </div>
+</div>
+</div>  
       </section>
 
       {/* Photo Gallery */}
@@ -419,103 +458,103 @@ export function Overview() {
         </div>
       </section>
       */}
-        {/* Maine Retreat Button */}
-<section className="py-8 px-6 text-center">
-  <button
-    onClick={() => setShowRetreatModal(true)}
-    className="px-8 py-4 bg-black text-white text-[12px] tracking-[0.2em] uppercase hover:bg-gray-900 transition-colors"
-    style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
-  >
-     Featured Properties Available →
-  </button>
-</section>
+      {/* Maine Retreat Button */}
+      <section className="py-8 px-6 text-center">
+        <button
+          onClick={() => setShowRetreatModal(true)}
+          className="px-8 py-4 bg-black text-white text-[12px] tracking-[0.2em] uppercase hover:bg-gray-900 transition-colors"
+          style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
+        >
+          Featured Properties Available →
+        </button>
+      </section>
 
-{/* Maine Retreat Modal */}
-{showRetreatModal && (
-  <div
-    className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-4"
-    onClick={() => setShowRetreatModal(false)}
-  >
-    <div
-      className="bg-white max-w-xl w-full relative"
-      onClick={(e) => e.stopPropagation()}
-    >
-      {/* Close Button */}
-      <button
-        onClick={() => setShowRetreatModal(false)}
-        className="absolute top-4 right-4 text-white text-xl leading-none"
-      >
-        ✕
-      </button>
+      {/* Maine Retreat Modal */}
+      {showRetreatModal && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-4"
+          onClick={() => setShowRetreatModal(false)}
+        >
+          <div
+            className="bg-white max-w-xl w-full relative"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close Button */}
+            <button
+              onClick={() => setShowRetreatModal(false)}
+              className="absolute top-4 right-4 text-white text-xl leading-none"
+            >
+              ✕
+            </button>
 
-      {/* Logo Header */}
-      <div className="bg-black px-8 py-7 text-center">
-        <div className="w-12 h-12 border border-white rounded-full flex items-center justify-center mx-auto mb-3">
-          <span style={{ fontFamily: "Playfair Display, serif", color: "#fff", fontSize: "18px" }}>NP</span>
-        </div>
-        <p style={{ fontFamily: "Playfair Display, serif", color: "#fff", fontSize: "16px", letterSpacing: "0.08em" }}>
-          North Pond Realty Trust
-        </p>
-        <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(255,255,255,0.5)", fontSize: "13px", letterSpacing: "0.3em", textTransform: "uppercase", marginTop: "4px" }}>
-          Norway, Maine · Oxford Hills · Est. 1975
-        </p>
-      </div>
-
-      {/* Body */}
-      <div className="px-8 py-8">
-        <p className="text-[13px] tracking-[0.3em] uppercase text-gray-700 mb-2" style={{ fontFamily: "Inter, sans-serif" }}>
-          Featured Property
-        </p>
-        <h2 className="text-2xl text-black mb-2 leading-snug" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
-          Masterfully-Renovated Maine Retreat,<br />
-          <em>Perfect for Families and Professionals</em>
-        </h2>
-        <p className="text-gray-700 italic mb-4" style={{ fontFamily: "Cormorant Garamond, serif", fontSize: "1.3rem" }}>
-          Oxford Hills · Western Maine
-        </p>
-        <span className="inline-block bg-green-50 text-green-700 text-[10px] tracking-[0.18em] uppercase px-3 py-1.5 mb-5">
-          ✦ Immediately Available for Lease
-        </span>
-        <p className="text-sm text-gray-500 leading-relaxed mb-6" style={{ fontFamily: "Inter, sans-serif" }}>
-          An exceptional property in the Oxford Hills region of Western Maine — thoughtfully renovated throughout with premium finishes, gourmet kitchen, spa-inspired bathrooms, and sweeping natural surroundings. Spacious, private, and move-in ready.
-        </p>
-        <div className="grid grid-cols-2 gap-2 mb-7">
-          {[
-            "3 Bedrooms · 2 Bathrooms",
-            "2 Private Acres",
-            "White Oak Hardwood Floors",
-            "Gourmet Kitchen",
-            "Private Forest Setting",
-            "1 hr Portland · 3 hrs Boston",
-          ].map((item) => (
-            <div key={item} className="flex items-center gap-2">
-              <span className="w-1 h-1 bg-black rounded-full shrink-0" />
-              <span className="text-[12px] text-gray-600" style={{ fontFamily: "Inter, sans-serif" }}>{item}</span>
+            {/* Logo Header */}
+            <div className="bg-black px-8 py-7 text-center">
+              <div className="w-12 h-12 border border-white rounded-full flex items-center justify-center mx-auto mb-3">
+                <span style={{ fontFamily: "Playfair Display, serif", color: "#fff", fontSize: "18px" }}>NP</span>
+              </div>
+              <p style={{ fontFamily: "Playfair Display, serif", color: "#fff", fontSize: "16px", letterSpacing: "0.08em" }}>
+                North Pond Realty Trust
+              </p>
+              <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(255,255,255,0.5)", fontSize: "13px", letterSpacing: "0.3em", textTransform: "uppercase", marginTop: "4px" }}>
+                Norway, Maine · Oxford Hills · Est. 1975
+              </p>
             </div>
-          ))}
+
+            {/* Body */}
+            <div className="px-8 py-8">
+              <p className="text-[13px] tracking-[0.3em] uppercase text-gray-700 mb-2" style={{ fontFamily: "Inter, sans-serif" }}>
+                Featured Property
+              </p>
+              <h2 className="text-2xl text-black mb-2 leading-snug" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
+                Masterfully-Renovated Maine Retreat,<br />
+                <em>Perfect for Families and Professionals</em>
+              </h2>
+              <p className="text-gray-700 italic mb-4" style={{ fontFamily: "Cormorant Garamond, serif", fontSize: "1.3rem" }}>
+                Oxford Hills · Western Maine
+              </p>
+              <span className="inline-block bg-green-50 text-green-700 text-[10px] tracking-[0.18em] uppercase px-3 py-1.5 mb-5">
+                ✦ Immediately Available for Lease
+              </span>
+              <p className="text-sm text-gray-500 leading-relaxed mb-6" style={{ fontFamily: "Inter, sans-serif" }}>
+                An exceptional property in the Oxford Hills region of Western Maine — thoughtfully renovated throughout with premium finishes, gourmet kitchen, spa-inspired bathrooms, and sweeping natural surroundings. Spacious, private, and move-in ready.
+              </p>
+              <div className="grid grid-cols-2 gap-2 mb-7">
+                {[
+                  "3 Bedrooms · 2 Bathrooms",
+                  "2 Private Acres",
+                  "White Oak Hardwood Floors",
+                  "Gourmet Kitchen",
+                  "Private Forest Setting",
+                  "1 hr Portland · 3 hrs Boston",
+                ].map((item) => (
+                  <div key={item} className="flex items-center gap-2">
+                    <span className="w-1 h-1 bg-black rounded-full shrink-0" />
+                    <span className="text-[12px] text-gray-600" style={{ fontFamily: "Inter, sans-serif" }}>{item}</span>
+                  </div>
+                ))}
+              </div>
+              <div className="flex gap-3">
+                <Link
+                  to="/property-Highlights"
+                  onClick={() => setShowRetreatModal(false)}
+                  className="flex-1 py-3 bg-black text-white text-[11px] tracking-[0.18em] uppercase text-center hover:bg-gray-900 transition-colors"
+                  style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
+                >
+                  View Full Property
+                </Link>
+                <Link
+                  to="/gallery"
+                  onClick={() => setShowRetreatModal(false)}
+                  className="flex-1 py-3 border border-black text-black text-[11px] tracking-[0.18em] uppercase text-center hover:bg-gray-50 transition-colors"
+                  style={{ fontFamily: "Inter, sans-serif" }}
+                >
+                  Gallery
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="flex gap-3">
-          <Link
-            to="/property-Highlights"
-            onClick={() => setShowRetreatModal(false)}
-            className="flex-1 py-3 bg-black text-white text-[11px] tracking-[0.18em] uppercase text-center hover:bg-gray-900 transition-colors"
-            style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
-          >
-            View Full Property
-          </Link>
-          <Link
-            to="/gallery"
-            onClick={() => setShowRetreatModal(false)}
-            className="flex-1 py-3 border border-black text-black text-[11px] tracking-[0.18em] uppercase text-center hover:bg-gray-50 transition-colors"
-            style={{ fontFamily: "Inter, sans-serif" }}
-          >
-            Gallery
-          </Link>
-        </div>
-      </div>
-    </div>
-  </div>
-)}
+      )}
       {/* Property Highlights Strip */}
       <section className="pt-4 pb-12 px-6 sm:px-10 lg:px-16">
         <div className="max-w-7xl mx-auto">
@@ -541,10 +580,10 @@ export function Overview() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-               {
+              {
                 img: hero3,
                 label: "Mastefully Renovated Maine Retreat",
-                desc: "Indoor-Outdoor Living · Full Perimeter",
+                desc: "Indoor-Outdoor Living",
                 path: "/outdoor-living",
               },
               {
@@ -604,18 +643,18 @@ export function Overview() {
         </div>
       </section>
       {/*end image*/}
-     <section className="relative mb-8 md:mb-12">
-  <div className="max-w-full mx-full overflow-hidden rounded-xl">
-    <ImageWithFallback
-      src={H51}
-      alt="Featured Property"
-      className="w-full h-full md:h-[650px] object-cover"
-    />
-  </div>
-</section>
+      <section className="relative mb-8 md:mb-12">
+        <div className="max-w-full mx-full overflow-hidden rounded-xl">
+          <ImageWithFallback
+            src={H51}
+            alt="Featured Property"
+            className="w-full h-full md:h-[650px] object-cover"
+          />
+        </div>
+      </section>
 
       {/* Amenities Preview */}
-     {/* <section className="bg-black text-white py-20 px-6 sm:px-10 lg:px-16">
+      {/* <section className="bg-black text-white py-20 px-6 sm:px-10 lg:px-16">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
