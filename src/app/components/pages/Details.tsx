@@ -45,7 +45,7 @@ const specs: SpecGroup[] = [
       { label: "Heating", value: "Tenant responsibility — easily activated" },
       { label: "Internet", value: "Tenant responsibility — easily activated" },
       // CHANGED: updated trash info from screenshot
-      { label: "Trash", value: "Municipal service — Dump only 3 miles away" },
+      { label: "Waste Disposal ", value: "Public Disposal   and Recycling only 3 miles away" },
     ],
   },
   {
@@ -64,13 +64,13 @@ const specs: SpecGroup[] = [
   {
     title: "Location & Access",
     rows: [
-      { label: "Road access", value: "300 ft from Crockett Ridge Road" },
-      { label: "Water access", value: "Norway Lake & North Pond — 2 miles (public boat ramps)" },
+      { label: "Road access", value: "All Season Access" },
+      { label: "Recreation access", value: "Norway Lake & North Pond — 2 miles (public boat ramps)" },
       { label: "Nearest town", value: "Norway, Maine (est. 1797) — 10 minutes" },
       // CHANGED: "1 hour" → "3½ hours" from screenshot
       { label: "Portland", value: "3½ hours" },
       { label: "Boston", value: "3 hours" },
-      { label: "Ski areas & Golf", value: "45 minutes (Sunday River, Shawnee Peak)" },
+      { label: "Ski areas & Golf", value: "45 minutes (Sunday River, Pleasant  Mountain)" },
       { label: "Oxford Hills region", value: "Hiking, canoeing, fishing, mountain biking nearby" },
     ],
   },
@@ -87,12 +87,6 @@ const specs: SpecGroup[] = [
   },
 ];
 
-const galleryImages = [
-  { src: PVImg, label: "Property View" },
-  { src: IntImg, label: "Interior" },
-  { src: GImg, label: "Grounds" },
-  { src: PFImg, label: "Private Forest" },
-];
 
 export function Details() {
   return (
@@ -162,46 +156,16 @@ className="px-6 py-3 text-[14px] text-gray-700 w-2/5"
         </div>
       </section>
 
-      {/* Photo Gallery */}
-      <section className="py-10 px-6 sm:px-12 lg:px-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-<p className="text-[13px] tracking-[0.3em] uppercase text-gray-600 mb-3" style={{ fontFamily: "Inter, sans-serif" }}>All Photos</p>
-
-<h2 className="text-2xl text-black mb-6" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
-  Complete Property Gallery
-</h2>
-
-<p className="text-[14px] text-gray-600 mb-6" style={{ fontFamily: "Inter, sans-serif" }}>
-  4 photos — interior, exterior & grounds
-</p>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
-            {galleryImages.map((img) => (
-              <div key={img.label} className="group">
-                <div className="aspect-square overflow-hidden">
-                  <ImageWithFallback
-                    src={img.src}
-                    alt={img.label}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  />
-                </div>
-<p className="text-[13px] tracking-[0.08em] uppercase text-gray-700 mt-2 text-center" style={{ fontFamily: "Inter, sans-serif" }}>
-  {img.label}
-</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
+      
+              
       {/* CTA */}
 <section className="py-20 px-6 text-center">
   <div className="max-w-2xl mx-auto">
     <p
-      className="text-[13px] tracking-[0.3em] uppercase text-gray-600 mb-4"
+      className="text-[18px] tracking-[0.3em] uppercase text-whitebold-600 mb-4"
       style={{ fontFamily: "Inter, sans-serif" }}
     >
-      Don't miss this renovated ranch gem
+      Don't miss this renovated Maine Test rest.
     </p>
 
     <h2
@@ -213,7 +177,7 @@ className="px-6 py-3 text-[14px] text-gray-700 w-2/5"
     </h2>
 
     <p
-      className="text-base text-gray-600 mb-8"
+      className="text-base text-gray-900 mb-8"
       style={{ fontFamily: "Inter, sans-serif" }}
     >
       Landlord is amenable to working with you to make this house your home.

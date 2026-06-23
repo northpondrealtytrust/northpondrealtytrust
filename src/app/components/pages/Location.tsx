@@ -163,24 +163,36 @@ export function Location() {
       <section className="px-6 sm:px-12 lg:px-20 pb-10 max-w-7xl mx-auto">
   <div className="bg-gray-900 text-white">
     <div className="p-10 text-center">
-      <p className="text-[12px] tracking-[0.3em] uppercase text-gray-300 mb-3" style={{ fontFamily: "Inter, sans-serif" }}>Oxford County · Est. 1797 · Lakes District</p>
-      <h2 className="text-3xl mb-2" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>Norway, Maine</h2>
-      <p className="text-gray-400 mb-6 max-w-xl mx-auto" style={{ fontFamily: "Inter, sans-serif" }}>
-        Crockett Ridge Road · Norway, Maine 04268 · Oxford Hills · 300 ft from road · 2 acres private
-      </p>
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-2xl mx-auto">
-        {[
-          { v: "2 min", l: "to Lake" },
-          { v: "10 min", l: "to Norway" },
-          { v: "45 min", l: "to Skiing" },
-          { v: "1 hr", l: "to Portland" },
-        ].map((s) => (
-          <div key={s.l} className="text-center">
-            <p className="text-2xl text-white" style={{ fontFamily: "Playfair Display, serif" }}>{s.v}</p>
-            <p className="text-[12px] tracking-[0.2em] uppercase text-gray-300 mt-0.5" style={{ fontFamily: "Inter, sans-serif" }}>{s.l}</p>
-          </div>
-        ))}
-      </div>
+      <p
+  className="text-[12px] tracking-[0.3em] uppercase text-gray-300 mb-3"
+  style={{ fontFamily: "Inter, sans-serif" }}
+>
+ 
+</p>
+
+<h2
+  className="text-3xl mb-2"
+  style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}
+>
+  Maine Retreat
+</h2>
+
+<p
+  className="text-gray-400 max-w-xl mx-auto leading-relaxed"
+  style={{ fontFamily: "Inter, sans-serif" }}
+>
+  2 Private Acres<br />
+  300 ft to Crockett Ridge Road<br />
+  Norway, Maine 04268
+</p>
+      <div className="mt-8 text-center">
+  <p
+    className="text-[12px] tracking-[0.35em] uppercase text-gray-300 mb-2"
+    style={{ fontFamily: "Inter, sans-serif" }}
+  >
+    North Pond Realty Trust
+  </p>
+</div>
     </div>
 
     {/* Clickable map — opens Google Maps in a new tab */}

@@ -13,7 +13,7 @@ import imgHg1 from "../../../imports/property/hg1.jpg";
 import g1 from "../../../imports/property/g1.jpg";
 import g2 from "../../../imports/property/g2.jpg";
 import g3 from "../../../imports/property/g3.jpg";
-import g4 from "../../../imports/property/g4.jpg";
+import g4 from "../../../imports/property/g4.jpeg";
 import g5 from "../../../imports/property/g5.jpg";
 import g6 from "../../../imports/property/g6.jpg";
 import g7 from "../../../imports/property/g7.jpg";

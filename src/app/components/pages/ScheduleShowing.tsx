@@ -4,7 +4,7 @@ import { Check, Phone, Mail, MapPin } from "lucide-react";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
 import emailjs from "@emailjs/browser";
 import img1 from "../../../imports/schedule/img1.jpg";
-import img2 from "../../../imports/schedule/img2.jpg";
+import img2 from "../../../imports/schedule/img2.jpeg";
 
 type FormData = {
   firstName: string;
