@@ -32,6 +32,7 @@ import Img27 from "../../../imports/Gallery/27.jpeg";
 import Img28 from "../../../imports/Gallery/28.jpeg";
 import Img29 from "../../../imports/Gallery/29.jpg";
 import Img30 from "../../../imports/Gallery/30.jpeg";
+import Img31 from "../../../imports/Gallery/31.jpeg";
 
 
 
@@ -65,6 +66,7 @@ const galleryImages = [
   Img27,
   Img28,
   Img29,
+  Img31,
 
 
 ];
