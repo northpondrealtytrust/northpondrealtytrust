@@ -136,7 +136,7 @@ export function PropertyHighlights() {
               key={stat.label}
               className={`py-2 px-4 text-center text-white ${i < stats.length - 1 ? "border-r border-gray-800" : ""}`}
             >
-              <p className="text-2xl sm:text-2xl" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>{stat.value}</p>
+              <p  className="text-lg sm:text-l leading-tight" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>{stat.value}</p>
               <p className="text-[14px] tracking-[0.2em] uppercase text-gray-300 mt-1" style={{ fontFamily: "Inter, sans-serif" }}>{stat.label}</p>
               <p className="text-[12.6px] text-gray-300 mt-0.5" style={{ fontFamily: "Inter, sans-serif" }}>{stat.sub}</p>
             </div>
