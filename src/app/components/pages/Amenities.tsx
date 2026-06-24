@@ -6,7 +6,7 @@ import imgKitchen from "../../../imports/livingrmkit.jpg";
 import imgHg1 from "../../../imports/hg1.jpg";
 //import imgH5 from "../../../imports/h5.jpg";
 //import  from "../../../imports/ameneties/AmentiesGarage.jpeg";
-import a1 from "../../../imports/ameneties/a1.jpeg";
+import a1 from "../../../imports/ameneties/alu.jpeg";
 
 const amenityGroups = [
   {
