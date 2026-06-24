@@ -11,7 +11,7 @@ import bd3 from "../../../imports/bedrooms/bd3.jpg";
 import bd4 from "../../../imports/bedrooms/bd4.jpg";
 import bd5 from "../../../imports/bedrooms/bd5.jpg";
 import bd6 from "../../../imports/bedrooms/bd6.jpg";
-import bd7 from "../../../imports/bedrooms/bd7.jpg";
+//import bd7 from "../../../imports/bedrooms/bd7.jpg";
 import bd8 from "../../../imports/bedrooms/bd8.jpg";
 import bd9 from "../../../imports/bedrooms/bd9.jpg";
 import bd10 from "../../../imports/bedrooms/bd10.jpg";
@@ -45,8 +45,8 @@ const bedrooms = [
     size: "King-Size",
     title: "King-Size Master Suite with Spa-Inspired Ensuite",
     sublabel: "Primary Suite",
-    images: [bd8, bd7, bd6,bd9,bd10],
-    body: "Retreat to a spacious primary suite designed for relaxation and comfort. The bedroom easily accommodates a king-size bed and features generous walk-in closet storage that will exceed your expectations. Natural light fills the room throughout the day, creating a warm, serene environment.\n\nThe luxurious ensuite bath is a private spa. A cast-iron soaking tub sits bathed in soft light. The ceramic marble shower offers a hotel-quality experience. Elegant modern fixtures, quartz vanity, and warm neutral finishes complete the picture of a true personal sanctuary.",
+    images: [bd6,bd8,],
+    body: "Retreat to a spacious primary suite designed for relaxation and comfort. The bedroom easily accommodates a king-size bed and features generous walk-in closet storage that will exceed your expectations. Natural light fills the room throughout the day, creating a warm, serene environment.\n\nThe luxurious ensuite bath is a private spa. A cast-iron soaking tub sits bathed in soft light. The ceramic marble shower offers a hotel-quality experience. Elegant modern fixtures, marble vanity, and warm neutral finishes complete the picture of a true personal sanctuary.",
     bullets: [
       "King-size bed configuration",
       "Generous walk-in closet",
@@ -65,7 +65,7 @@ const bedrooms = [
     title: "Spacious First Guest Bedroom",
     sublabel: "Guest Bedroom",
     images: [ bd3, ],
-    body: "The first guest bedroom offers generous space for a queen-size bed with room to spare. Clean, well-organized closet space, fresh neutral finishes, and abundant natural light create an inviting environment — equally suited for a family member, guest, or home office.\n\nThe guest wing is served by a fully updated full bathroom with modern fixtures, bright design, and clean, contemporary finishes. Private, quiet, and comfortable — your guests will feel genuinely at home.",
+    body: "The first guest bedroom offers generous space for a queen-size bed with room to spare. Clean, well-organized closet space, fresh neutral finishes, and abundant natural light create an inviting environment — equally suited for a family member, guest, or home office. The guest wing is served by a fully updated full bathroom with modern fixtures, bright design, and clean, contemporary finishes. Private, quiet, and comfortable — your guests will feel genuinely at home.",
     bullets: [
       "Twin-size bed opportunity",
       "Generous closet space",
@@ -302,7 +302,7 @@ export function Bedrooms() {
       className="text-4xl leading-normal mb-4"
       style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}
     >
-      See the primary suite, guest rooms,
+      See the master suite, guest rooms,
       <br />
       <em>and the full home in person.</em>
     </h2>

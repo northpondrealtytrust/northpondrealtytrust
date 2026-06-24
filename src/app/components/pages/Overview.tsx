@@ -131,10 +131,11 @@ export function Overview() {
               North Pond Realty Trust · Norway, Maine · Oxford Hills
             </p>
             <h1
-              className="text-5xl sm:text-6xl lg:text-7xl text-white mb-2 leading-none"
+              className="text-4xl sm:text-2xl lg:text-5xl text-white mb-2 leading-none"
               style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}
             >
-              Welcome to North Pond Realty Trust
+              <span className="block">  Welcome to</span>
+              <span className="block">North Pond Realty Trust </span>
             </h1>
             <p
               className="text-xl sm:text-2xl text-white/90 mb-1 italic"

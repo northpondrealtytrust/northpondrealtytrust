@@ -48,13 +48,13 @@ const cards = [
     img: imgForest,
   },
   {
-    title: "Oxford Hills Lakes Are Nearby",
+    title: "Oxford Hills Lakes Nearby",
     body: "Norway Lake and North Pond are just 2 miles from the driveway. Public boat ramps, swimming, fishing, kayaking, and paddleboarding are all within easy reach.",
     img: WaterfrontImg,
   },
   {
     title: "Premier Location",
-    body: "Set in the Oxford Hills of Norway, Maine — a region celebrated for its natural beauty, four-season recreation, and authentic New England character — with Portland and Ski Areas and Golf Resorts just 45 minutes away.",
+    body: "Set in the Oxford Hills — a region celebrated for its natural beauty, four-season recreation, and authentic New England character.",
     img: imgH3,
   },
 ];

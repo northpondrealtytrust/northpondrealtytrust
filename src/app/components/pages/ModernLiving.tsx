@@ -54,7 +54,7 @@ const sections = [
 const highlights = [
   { title: "Elevated Interiors", body: "Every room has been reimagined from the ground up with designer fixtures, warm neutral palettes, and premium materials that create a cohesive, polished aesthetic throughout." },
   { title: "Open-Concept Flow", body: "Living, dining, and kitchen areas flow seamlessly into one another, creating a spacious, connected environment perfect for daily living and entertaining alike." },
-  { title: "Natural Light & Air", body: "Large windows throughout flood every room with natural Maine light and frame views of the private wooded acreage — turning the landscape into living art." },
+  { title: "Natural Light & Air", body: "Large windows throughout flood every room with natural light and frame views of the private wooded acreage — turning the landscape into living art." },
   { title: "Move-In Ready", body: "Brand-new appliances, fresh finishes, new flooring, and updated systems mean you walk in, unpack, and start living. No projects. No waiting. Just home." },
 ];
 

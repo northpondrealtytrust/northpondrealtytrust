@@ -175,7 +175,7 @@ const [form, setForm] = useState<FormData>({
               <div className="space-y-3">
                 <a href="tel:1207-890-6179" className="flex items-center gap-3 text-3sm text-gray-700 hover:text-black transition-colors" style={{ fontFamily: "Inter, sans-serif" }}>
                   <Phone size={14} className="text-gray-400" />
-                  +1 ( 202)258 3575
+                  +1 (202) 258 3575
                 </a>
                 <a href="mailto:Info@NorthPondRealtyTrust.com" className="flex items-center gap-3 text-3sm text-gray-700 hover:text-black transition-colors" style={{ fontFamily: "Inter, sans-serif" }}>
                   <Mail size={14} className="text-gray-400" />

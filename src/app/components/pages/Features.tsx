@@ -114,10 +114,10 @@ export function Features() {
       </section>
 
       {/* Intro */}
-      <section className="py-16 px-6 sm:px-12 lg:px-20 max-w-7xl mx-auto">
-        <div className="max-w-7xl">
+      <section className="py-18 px-8 sm:px-14 lg:px-20 max-w-7xl mx-auto">
+        <div className="max-w-9xl">
         
-          <p className="text-gray-600 leading-relaxed text-5sm" style={{ fontFamily: "Inter, sans-serif" }}>
+          <p className="text-gray-900 leading-relaxed text-7sm" style={{ fontFamily: "Inter, sans-serif" }}>
             Designed for comfort and convenience, this beautifully updated ranch offers effortless single-story living with bright, open spaces and exceptional functionality. New flooring throughout, fresh neutral finishes, and abundant natural light create a warm and inviting atmosphere while showcasing views of the surrounding private acreage.
           </p>
         </div>
@@ -127,7 +127,7 @@ export function Features() {
       <section className="pb-10 px-6 sm:px-12 lg:px-20 max-w-7xl mx-auto">
         <div className="bg-black text-white p-8 lg:p-12">
           <p className="text-[13px] tracking-[0.3em] uppercase text-gray-400 mb-3" style={{ fontFamily: "Inter, sans-serif" }}>Included</p>
-          <h2 className="text-3xl text-white mb-6" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>Move-In Ready Upgrades</h2>
+          <h2 className="text-5xl text-white mb-6" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>Move-In Ready Upgrades</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-2">
             {[
               "Brand-new stainless-steel appliances",

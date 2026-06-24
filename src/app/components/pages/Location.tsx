@@ -31,23 +31,23 @@ const areaHighlights = [
   
   {
     title: "Oxford Hills Nature",
-    sub: "Scenic Oxford County",
+    sub: "",
     body: "The Oxford Hills region offers endless outdoor recreation: hiking, canoeing, wildlife watching, fly fishing, mountain biking, and snowmobiling. The White Mountains of NH are also within a short drive for alpine adventures.",
-    stat: "At your door",
+    //stat: "",
     img: imgHg3,
   },
   {
     title: "Norway, Maine",
-    sub: "Est. 1797 · Oxford County Seat",
+    //sub: "Est. 1797 · Oxford County Seat",
     body: "Norway is a charming New England town with deep history, dating to 1797. Downtown Norway offers grocery, pharmacy, hardware, local restaurants, healthcare, and the full suite of everyday conveniences — just 10 minutes away.",
-    stat: "10 minutes",
+    //stat: "10 minutes",
     img: imgH3,
   },
   {
     title: "Private Parcel",
-    sub: "300 ft from Crockett Ridge Road",
+    //sub: "300 ft from Crockett Ridge Road",
     body: "The property sits on a private 2-acre parcel approximately 300 feet from well-maintained Crockett Ridge Road. Access is easy year-round with landlord-provided snowplowing, yet the home feels truly private and secluded.",
-    stat: "300 ft to road",
+    //stat: "300 ft to road",
     img: imgH5,
   },
 ];
@@ -254,7 +254,7 @@ export function Location() {
       <section className="py-20 px-6 text-center">
   <div className="max-w-xl mx-auto">
     <p
-      className="text-[13px] tracking-[0.3em] uppercase text-gray-600 mb-4"
+      className="text-[17px] tracking-[0.3em] uppercase text-gray-900 mb-4"
       style={{ fontFamily: "Inter, sans-serif" }}
     >
       Visit this remarkable retreat

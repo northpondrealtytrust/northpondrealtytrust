@@ -33,7 +33,7 @@ const outdoorAmenities = [
   { name: "Wildlife watching", sub: "Deer, birds, and Maine wildlife visit regularly" },
   { name: "Stargazing", sub: "Dark sky — brilliant night sky viewing from the deck" },
   { name: "Garden potential", sub: "Fertile land ready for vegetable or flower gardens" },
-  { name: "Nooks", sub: "Charming private nooks throughout the wooded acres" }, // ✅ added
+  //{ name: "Nooks", sub: "Charming private nooks throughout the wooded acres" }, // ✅ added
   { name: "Picnic area", sub: "Perfect spots for outdoor dining and relaxing on the grounds" }, // ✅ added
   // ✅ "Walking trails possible" REMOVED
 ];
@@ -113,11 +113,11 @@ export function OutdoorLiving() {
       <section className="py-20 px-6 sm:px-12 lg:px-20 max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-10 items-start">
           <div>
-            <p className="text-[17px] tracking-[0.2em] uppercase text-gray-700 mb-3" style={{ fontFamily: "Inter, sans-serif" }}>Stairway to Natural Splendor</p>
-            <p className="text-gray-600 leading-relaxed mb-1 text-3sm" style={{ fontFamily: "Inter, sans-serif" }}> {/* ✅ text-base for readability */}
+            <p className="text-[19px] tracking-[0.2em] uppercase text-gray-700 mb-3" style={{ fontFamily: "Inter, sans-serif" }}>Stairway to Natural Splendor</p>
+            <p className="text-gray-900 leading-relaxed mb-1 text-5sm" style={{ fontFamily: "Inter, sans-serif" }}> {/* ✅ text-base for readability */}
               True seclusion on two private acres with a charming wrap-around porch and spacious deck. Whether watching wildlife, stargazing, or simply breathing in the fresh Maine air, this private oasis celebrates every season of the year.
             </p>
-            <p className="text-gray-600 leading-relaxed text-3sm" style={{ fontFamily: "Inter, sans-serif" }}> {/* ✅ text-base */}
+            <p className="text-gray-900 leading-relaxed text-5sm" style={{ fontFamily: "Inter, sans-serif" }}> {/* ✅ text-base */}
               The landlord maintains the yard, provides professional winter snowplowing, and will install a dog-friendly perimeter fence. The property's generous acreage offers countless possibilities — create flower gardens, nooks, picnic spots, gathering spaces, or natural meadows. {/* ✅ added nooks + picnic */}
             </p>
           </div>
@@ -195,7 +195,7 @@ export function OutdoorLiving() {
             <h2 className="text-4xl mb-5" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
               A genuinely picnic-friendly ambiance. {/* ✅ updated */}
             </h2>
-            <p className="text-gray-300 leading-relaxed mb-6" style={{ fontFamily: "Inter, sans-serif" }}>
+            <p className="text-gray-900 leading-relaxed mb-8" style={{ fontFamily: "Inter, sans-serif" }}>
              Outdoor grounds and lawns, and a spacious deck provide ample room for picnics and barbecues. Enjoy the Maine seasons outside your rear door.
             </p>
             <Link

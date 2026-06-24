@@ -67,8 +67,8 @@ const amenityGroups = [
   {
     title: "Recreation & Access",
     items: [
-      { name: "North Pond", sub: "Public boat ramp — 2 miles" },
-      { name: "Norway Lake", sub: "Public boat ramp — 2 miles" },
+      { name: "North Pond & Norway Lake", sub: "Public boat ramp — 2 miles" },
+      //{ name: "Norway Lake", sub: "Public boat ramp — 2 miles" },
       { name: "Ski areas", sub: "Sunday River, Pleasent Mountain — 45 min" },
       { name: "Golf courses", sub: "Multiple courses — 45 min" },
       { name: "Hiking trails", sub: "Oxford Hills — at your doorstep" },
@@ -78,8 +78,8 @@ const amenityGroups = [
   {
     title: "Pet and Family Friendly",
     items: [
-      { name: "Dogs and Famil welcome", sub: "Genuinely family friendly property" },
-      { name: "Perimeter fence planned", sub: "Safe, secure space for your dog" },
+      { name: "Dogs and Family welcome", sub: "Genuinely family friendly property" },
+      { name: "Perimeter fence planned", sub: "Safe, secure space " },
       { name: "2 acres to explore", sub: "Room  to run and roam" },
       //{ name: "Private, secure setting", sub: "No traffic, no neighbors — true privacy" },
       //{ name: "solo surroundings", sub: "Trails, woods, and wildlife to discover" },
@@ -223,11 +223,11 @@ export function Amenities() {
       className="text-2xl sm:text-3xl md:text-4xl leading-snug sm:leading-normal mb-4 px-1"
       style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}
     >
-      Schedule your private showing and discover
-      <br className="hidden sm:block" />
-      <em>
-        why Ranch Retreat offers a lifestyle that simply cannot be replicated.
-      </em>
+      <span className="block">Schedule your private showing </span>
+              <span className="block">  and discover why</span>
+      
+      <span className="block"><em>"Maine Retreat"</em>  offers a lifestyle that simply cannot be replicated </span>
+      
     </h2>
 
     <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 mt-6 sm:mt-8">

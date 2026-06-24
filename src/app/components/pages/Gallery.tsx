@@ -66,7 +66,7 @@ const galleryImages = [
   Img27,
   Img28,
   Img29,
-  Img31,
+  //Img31,
 
 
 ];

@@ -68,7 +68,7 @@ const specs: SpecGroup[] = [
       { label: "Recreation access", value: "Norway Lake & North Pond — 2 miles (public boat ramps)" },
       { label: "Nearest town", value: "Norway, Maine — 10 minutes" },
       // CHANGED: "1 hour" → "3½ hours" from screenshot
-      { label: "Portland", value: "3½ hours" },
+      { label: "Portland", value: "1 hour" },
       { label: "Boston", value: "3 hours" },
       { label: "Ski areas & Golf", value: "45 minutes (Sunday River, Pleasant  Mountain)" },
       //{ label: "Oxford Hills region", value: "Hiking, canoeing, fishing, mountain biking nearby" },
@@ -115,7 +115,7 @@ export function Details() {
       {/* Specs Tables */}
       <section className="py-16 px-6 sm:px-12 lg:px-20 max-w-7xl mx-auto">
         <div className="mb-10">
-<p className="text-[13px] tracking-[0.3em] uppercase text-gray-700 mb-3" style={{ fontFamily: "Inter, sans-serif" }}>Complete</p>
+<p className="text-[13px] tracking-[0.3em] uppercase text-gray-700 mb-3" style={{ fontFamily: "Inter, sans-serif" }}></p>
           <h2 className="text-4xl text-black" style={{ fontFamily: "Playfair Display, serif", fontWeight: 500 }}>
             Property Specifications
           </h2>
