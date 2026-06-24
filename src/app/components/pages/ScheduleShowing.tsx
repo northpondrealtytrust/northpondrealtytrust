@@ -30,6 +30,8 @@ const timeOptions = [
   "5:00 PM – 6:00 PM",
 ];
 
+emailjs.init("ZtwFwEyVj7OSExVl4");
+
 export function ScheduleShowing() {
 const [form, setForm] = useState<FormData>({
     firstName: "",
@@ -54,32 +56,48 @@ const [form, setForm] = useState<FormData>({
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    try {
-      await emailjs.send(
-        "service_ujoaycd",
-        "template_s7j9g18",
-        {
-          name: `${form.firstName} ${form.lastName}`,
-          firstName: form.firstName,
-          lastName: form.lastName,
-          email: form.email,
-          phone: form.phone,
-          date: form.preferredDate,
-          time: form.preferredTime,
-          household: form.household,
-          message: form.message,
-          hasPets: form.hasPets ? "Yes" : "No",
-        },
-        "Vu5r565yJJY1yQGTw"
-      );
-      setSubmitted(true);
-    } catch (error: any) {
-      console.error("EmailJS Error:", JSON.stringify(error));
-      alert("Something went wrong. Please try again.");
-    }
-  };
+  e.preventDefault();
+  try {
+    // Email to YOU (agent)
+    await emailjs.send(
+      "service_0f8vg7a",
+      
+      "template_day54ya",
+      {
+        name: `${form.firstName} ${form.lastName}`,
+        firstName: form.firstName,
+        lastName: form.lastName,
+        email: form.email,
+        phone: form.phone,
+        date: form.preferredDate,
+        time: form.preferredTime,
+        household: form.household,
+        message: form.message,
+        hasPets: form.hasPets ? "Yes" : "No",
+      },
+      "ZtwFwEyVj7OSExVl4"
+    );
 
+    // Confirmation email to CLIENT
+    await emailjs.send(
+      "service_0f8vg7a",
+      "template_day54ya",
+       
+      {
+        client_email: form.email,
+        firstName: form.firstName,
+        date: form.preferredDate,
+        time: form.preferredTime,
+      },
+      "ZtwFwEyVj7OSExVl4"
+    );
+
+    setSubmitted(true);
+  } catch (error: any) {
+    console.error("EmailJS Error:", JSON.stringify(error));
+    alert("Something went wrong. Please try again.");
+  }
+};
   if (submitted) {
     return (
       <div className="min-h-screen flex items-center justify-center px-6 py-20">
