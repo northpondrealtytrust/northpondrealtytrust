@@ -34,10 +34,12 @@ import am4 from "../../../imports/hero/am4.png";
 
 
 const heroSlides = [
-  { src: HM_HEImg, alt: "Gourmet kitchen", label: "Brand New Kitchen" },
+  
   { src: HeroImg, alt: "Private forest — Maine Retreat", label: "Exceptional Country Living" },
-  { src: HM_HE5Img, alt: "P", label: "Living" },
+  { src: HM_HEImg, alt: "Gourmet kitchen", label: "Brand New Kitchen" },
   { src: HM_HE1Img, alt: "Gkitchen", label: "B" },
+  { src: HM_HE5Img, alt: "P", label: "Living" },
+  //{ src: HM_HE1Img, alt: "Gkitchen", label: "B" },
   { src: HM_HE2Img, alt: "G", label: "B" },
   //{ src: hero2, alt: "Ranch home exterior", label: "Move-In Ready" },
 ];
