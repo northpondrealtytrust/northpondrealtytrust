@@ -73,6 +73,18 @@ const [form, setForm] = useState<FormData>({
         },
         "ZtwFwEyVj7OSExVl4"
       );
+
+      await emailjs.send(
+      "service_0f8vg7a",
+      "template_z1fzg6r",   // ← new template ID yahan
+      {
+        to_email: form.email,
+        firstName: form.firstName,
+        date: form.preferredDate,
+        time: form.preferredTime,
+      },
+      "ZtwFwEyVj7OSExVl4"
+    );
       setSubmitted(true);
     } catch (error: any) {
       console.error("EmailJS Error:", JSON.stringify(error));
