@@ -61,8 +61,8 @@ const [form, setForm] = useState<FormData>({
     // Email to YOU (agent)
     await emailjs.send(
       "service_0f8vg7a",
-      
       "template_day54ya",
+      
       {
         name: `${form.firstName} ${form.lastName}`,
         firstName: form.firstName,
@@ -81,7 +81,7 @@ const [form, setForm] = useState<FormData>({
     // Confirmation email to CLIENT
     await emailjs.send(
       "service_0f8vg7a",
-      "template_day54ya",
+      "template_katxn28",
        
       {
         client_email: form.email,
