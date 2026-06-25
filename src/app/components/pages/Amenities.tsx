@@ -45,7 +45,7 @@ const amenityGroups = [
   {
     title: "Outdoor & Grounds",
     items: [
-      { name: "Wrap-around porch", sub: "Full perimeter — morning to sunset" },
+      { name: "Wrap-around porch", sub: "Half-perimeter — morning to sunset" },
       { name: "Spacious  deck", sub: "Large, private outdoor entertaining space" },
       { name: "2 private wooded acres", sub: "Mature trees, open lawns, privacy" },
       { name: "Wildlife & nature", sub: "Active deer, birds, Maine wildlife" },
