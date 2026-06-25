@@ -590,7 +590,7 @@ More recent acquisitions have been to improve and protect these core parcels for
             {[
               {
                 img: hero3,
-                label: "Mastefully Renovated Maine Retreat",
+                label: "Masterfully Renovated Maine Retreat",
                 desc: "Indoor-Outdoor Living",
                 path: "/outdoor-living",
               },
