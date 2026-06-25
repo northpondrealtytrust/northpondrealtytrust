@@ -118,7 +118,7 @@ export function OutdoorLiving() {
               True seclusion on two private acres with a charming wrap-around porch and spacious deck. Whether watching wildlife, stargazing, or simply breathing in the fresh Maine air, this private oasis celebrates every season of the year.
             </p>
             <p className="text-gray-900 leading-relaxed text-5sm" style={{ fontFamily: "Inter, sans-serif" }}> {/* ✅ text-base */}
-              The landlord maintains the yard, provides professional winter snowplowing, and will install a dog-friendly perimeter fence. The property's generous acreage offers countless possibilities — create flower gardens, nooks, picnic spots, gathering spaces, or natural meadows. {/* ✅ added nooks + picnic */}
+              The landlord maintains the yard, provides professional winter snowplowing, and plans to install a perimeter fence. The property's generous acreage offers countless possibilities — create flower gardens, nooks, picnic spots, gathering spaces, or natural meadows. {/* ✅ added nooks + picnic */}
             </p>
           </div>
           <div className="relative">
