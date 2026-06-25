@@ -255,7 +255,7 @@ export function Overview() {
 
 The second acquisition was a stunning mountain parcel in Andover, Maine, just 30 minutes from Sunday River Ski and Golf Resort.
 
-More recent acquisitions have been to improve and protect these core parcels for future generations.
+More recent acquisitions have been made to improve and protect these core parcels for future generations.
 
             </p>
             <p className="text-gray-700 leading-relaxed text-2sm mb-2"> North Pond Realty Trust is occasionally able to offer selected:</p>
